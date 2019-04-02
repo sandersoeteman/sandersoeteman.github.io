@@ -1,0 +1,25 @@
+
+<nav>
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="{{site.url}}" class="smoothScroll">Home</a></li>
+        <li><a href="#about" class="smoothScroll">About</a></li>
+        <li><a href="#features" class="smoothScroll">Features</a></li>
+        <li><a href="#pricing" class="smoothScroll">Pricing</a></li>
+        <li><a href="#contact" class="smoothScroll">Contact</a></li>
+
+          
+{% for page in site.pages %}
+  {% if page.title %}
+    
+       {% if page.permalink == '/blog/index.html'%}
+       <li><a href="{{page.url}}" class="smoothScroll">Blog</a></li>
+      {% endif %}
+
+     
+    
+  {% endif %}
+{% endfor %}
+  
+    </ul>
+</nav>
+

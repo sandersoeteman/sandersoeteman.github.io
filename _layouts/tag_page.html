@@ -1,0 +1,77 @@
+---
+layout: blog_layout
+title: 'Tag Page'
+---
+
+<!-- main menu area -->
+<header id="stickey-menu">
+   <nav class="main-menu">
+      <div class="container">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed custom-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><i class="fa fa-bars fa-lg"></i>
+            </button>
+            <div class="logo-brand">
+               <a href="{{site.url}}">
+                 <img src="{{site.url}}/assets/images/logo.jpg" alt="logo">
+               </a>
+            </div>
+         </div>
+         <!-- Collect the nav links, forms, and other content for toggling -->
+         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+          {% include header_menu.html %}
+         </div>
+         <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+   </nav>
+</header>
+<div class="page-header-bg">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12">
+            <div class="page-header-title">
+               <h2>Tag Page</h2>
+               <ul class="page-list">
+                  <li><a href="{{site.url}}">Home</a></li>
+                  <li>Tag Page</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div class="appix-blog-content section-ptb-2">
+  <div class="container">
+     <div class="row">
+        {% for post in page.posts %}
+        <div class="col-xs-12 col-sm-6">
+           <div class="blog-item">
+              <a href="{{post.url}}"> <div class="blog-image" style="background-image:url({{post.image_url}});">
+                 <div class="item-overlay"></div>
+              </div>
+              </a>
+              <div class="blog-details">
+                 <h3><a href="{{post.url}}">{{ post.title }}</a></h3>
+                 <ul class="blog-author-name">
+                    <li><i class="fa fa-user-o"></i>{{ post.author }}</li>
+                    <li><i class="fa fa-folder-open-o"></i>{{ post.categories }}</li>
+                 </ul>
+                 <div class="blog-excerpt">
+                    {{post.excerpt | strip_html | truncatewords: 35 }}
+                 </div>
+                 <div class="read-more">
+                    <div class="themeix-button-group">
+                       <a href="{{post.url}}" class="themeix-btn themeix-danger">read more</a>
+                    </div>
+                 </div>
+                {% include social_share.html %}
+              </div>
+           </div>
+        </div>
+       {% endfor %}
+     </div>
+  </div>
+</div>
+{% include apps_download_link.html %}
+{% include footer_two.html %}

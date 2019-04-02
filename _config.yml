@@ -13,16 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 'Appix Jekyll Responsive Bloggong Template'
-email: 'themeix@gmail.com'
+title: 'Pokayoka'
+email: 'sales@pokayoka.com'
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Samen werken aan kwaliteitsverbetering en kostenbesparing voor bouwteams
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://appszonejk.themeix.com/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://ssured.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: thepokayoka
+github_username:  pokayoka
 
 # Build settings
 markdown: kramdown

@@ -262,7 +262,7 @@ section.pt-25 {
     font-size: 12px;
     text-align: center;
     border-radius: 5px;
-    transition: all 0.5s;
+    transition: all 00.2s;
 }
 .appix-danger:hover {
     color: #fff;
@@ -279,7 +279,7 @@ section.pt-25 {
     font-weight: 400;
     text-align: center font-size: 12px;
     border-radius: 5px;
-    transition: all 0.5s;
+    transition: all 00.2s;
 }
 .appix-info:hover {
     color: #fff;
@@ -304,8 +304,8 @@ header {
 }
 .main-menu {
     position: relative;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
+    -webkit-transition: all 00.2s;
+    transition: all 00.2s;
     border-bottom: 1px solid rgba(245, 245, 245, .1);
     padding: 20px 0px;
 	background:#fff;
@@ -351,7 +351,7 @@ header {
     padding: 8px 15px;
     font-size: 16px;
     display: block;
-    transition: all 0.5s ease-in-out;
+    transition: all 00.2s ease-in-out;
     font-weight: 400;
 	color: #222222;
 }
@@ -461,15 +461,17 @@ header.stickey .logo-brand img{
     padding: 12px 20px;
     display: inline-block;
     font-size: 15px;
-    text-transform:capitalize;
     line-height: 24px;
     background: #f96a91;
     margin-right: 12px;
     font-weight: 400;
-     color: #fff;
+    color: #fff;
     position: relative;
     z-index: 2;
-    -webkit-transition: 0.4s;
+    transition: 0.2s;
+}
+.themeix-button-group .themeix-btn:first-letter {
+    text-transform:capitalize;
 }
 .themeix-button-group .themeix-btn:hover {
     color: #F96A91;
@@ -482,11 +484,11 @@ header.stickey .logo-brand img{
     background-color: #FFFFFF;
     top: 50%;
     left: 0;
-    transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-    -webkit-transition: 0.4s;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transition: 0.2s;
     z-index: -11;
 }
 .themeix-button-group .themeix-btn:hover:before {
@@ -500,11 +502,11 @@ header.stickey .logo-brand img{
     background-color: #FFFFFF;
     bottom: 50%;
     left: 0;
-    transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-    -webkit-transition: 0.4s;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transition: 0.2s;
     z-index: -11;
 }
 .themeix-button-group .themeix-btn:hover:after {
@@ -518,11 +520,11 @@ header.stickey .logo-brand img{
     background-color: #F96A91;
     top: 50%;
     left: 0;
-    transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-    -webkit-transition: 0.4s;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transition: 0.2s;
     z-index: -11;
 }
 .themeix-button-group .bg-change:hover:before {
@@ -536,11 +538,11 @@ header.stickey .logo-brand img{
     background-color: #F96A91;
     bottom: 50%;
     left: 0;
-    transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-    -webkit-transition: 0.4s;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transition: 0.2s;
     z-index: -11;
 }
 .themeix-button-group .bg-change:hover:after {
@@ -627,11 +629,11 @@ header.stickey .logo-brand img{
     background-color: #3694F4;
     top: 50%;
     left: 0;
-    transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-    -webkit-transition: 0.4s;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transition: 0.2s;
     z-index: -11;
 }
 .themeix-button-group .themeix-danger:hover:before {
@@ -645,11 +647,11 @@ header.stickey .logo-brand img{
     background-color: #3694F4;
     bottom: 50%;
     left: 0;
-    transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-    -webkit-transition: 0.4s;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transition: 0.2s;
     z-index: -11;
 }
 .themeix-button-group .themeix-danger:hover:after {
@@ -663,7 +665,7 @@ header.stickey .logo-brand img{
    ========================================== */
 
 .stickey .main-menu {
-    animation: 400ms linear 0s normal none 1 running fadeInDown;
+    animation: 0.2s linear 0s normal none 1 running fadeInDown;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background: #FFFFFF;
     left: 0;
@@ -801,11 +803,11 @@ header.stickey .logo-brand img{
     width: 0;
     height: 2px;
     bottom: -8px;
-    transition: 0.4s;
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 .feature-content:hover h3:after {
     width: 20%;
@@ -890,7 +892,7 @@ header.stickey .logo-brand img{
 11. App Screenshorts
    ========================================== */
 
-.app-screenshorts-area {
+.exclusive-features-section {
     background: #F5F5F5;
 }
 .trailer-video-overlay {
@@ -1156,7 +1158,7 @@ span.price-tag {
 .price-table {
     background-color: #FFFFFF;
     padding: 20px 0;
-    transition: all .5s linear 0s;
+    transition: all 0.2s linear 0s;
     color: #222222;
 }
 .appiex-active {
@@ -1186,7 +1188,7 @@ ul.pricing-features > li {
 }
 .see-pricing {
     color: #fff;
-    transition: all .5s linear 0s;
+    transition: all 0.2s linear 0s;
 }
 .single-pricing {
     transition: all .4s linear 0s;
@@ -1286,11 +1288,11 @@ ul.pricing-plan li {
     background-color: #222222;
     top: 50%;
     left: 0;
-    transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-    -webkit-transition: 0.4s;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transition: 0.2s;
     z-index: -11;
 }
 .themeix-button-group .themeix-price-button-active:hover:before {
@@ -1304,11 +1306,11 @@ ul.pricing-plan li {
     background-color: #222222;
     bottom: 50%;
     left: 0;
-    transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-    -webkit-transition: 0.4s;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transition: 0.2s;
     z-index: -11;
 }
 .themeix-button-group .themeix-price-button-active:hover:after {
@@ -1329,11 +1331,11 @@ ul.pricing-plan li {
     background-color: #F96A91;
     top: 50%;
     left: 0;
-    transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-    -webkit-transition: 0.4s;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transition: 0.2s;
     z-index: -11;
 }
 .themeix-button-group .price-btn-cust:hover:before {
@@ -1347,11 +1349,11 @@ ul.pricing-plan li {
     background-color: #F96A91;
     bottom: 50%;
     left: 0;
-    transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-    -webkit-transition: 0.4s;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transition: 0.2s;
     z-index: -11;
 }
 .themeix-button-group .price-btn-cust:hover:after {
@@ -1490,7 +1492,7 @@ textarea:focus {
     color: #fff;
     position: relative;
     z-index: 22;
-    -webkit-transition: 0.4s;
+    -webkit-transition: 0.2s;
     width: 100%;
     overflow: hidden;
     z-index: 1;
@@ -1508,11 +1510,11 @@ textarea:focus {
     -moz-transform: translate(-1%, -40%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
-    transition: width 0.7s, height 0.7s;
-    -webkit-transition: width 0.7s, height 0.7s;
-    -moz-transition: width 0.7s, height 0.7s;
-    -ms-transition: width 0.7s, height 0.7s;
-    -o-transition: width 0.7s, height 0.7s;
+    transition: width 0.4s, height 0.4s;
+    -webkit-transition: width 0.4s, height 0.4s;
+    -moz-transition: width 0.4s, height 0.4s;
+    -ms-transition: width 0.4s, height 0.4s;
+    -o-transition: width 0.4s, height 0.4s;
     top: 70px;
     z-index: -22;
 }
@@ -1695,9 +1697,9 @@ ul.page-list li a {
     visibility: hidden;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-    transition: transform 400ms ease 0s;
-    -webkit-transition: -webkit-transform 400ms ease 0s;
-    -moz-transition: transform 400ms ease;
+    transition: transform 0.2s ease 0s;
+    -webkit-transition: -webkit-transform 0.2s ease 0s;
+    -moz-transition: transform 0.2s ease;
 }
 .blog-item:hover .blog-image:after {
     opacity: 1;
@@ -1777,9 +1779,9 @@ ul.blog-author-name li i {
     font-size: 12px;
     font-weight: 400;
     padding: 11px 46px;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
     float: left;
 }
 .themeix-second-button .btn-read:hover {
@@ -1806,29 +1808,24 @@ ul.social-icon {
     color: #fff;
     font-size: 15px;
     margin-right: 6px;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
-style.css:84
 a:hover {
     text-decoration: none;
 }
-bootstrap.min.css:5
 a:focus, a:hover {
     color: #23527c;
     text-decoration: underline;
 }
-bootstrap.min.css:5
 a:active, a:hover {
     outline: 0;
 }
-style.css:1795
 .twitter {
     background: #1DA1F2;
 }
-bootstrap.min.css:5
 a {
     color: #337ab7;
     text-decoration: none;
@@ -1954,9 +1951,9 @@ a {
     color: #fff;
     font-size: 16px;
     background: #CCCCCC;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
     margin-right: 8px;
 }
 .pagination li a:hover {
@@ -1992,7 +1989,7 @@ a {
     border-radius: 50%;
     margin-right: 6px;
     overflow: hidden;
-    transition: transform 0.4s;
+    transition: transform 0.2s;
     text-align: center;
     line-height: 47px;
     display: inline-block;
@@ -2108,9 +2105,9 @@ a {
 .sidebar ul li a {
     color: #222222;
     font-weight: 400;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
     display: block;
 }
 .sidebar ul li.cat-item,
@@ -2377,7 +2374,7 @@ textarea.form-control {
     color: #fff;
     position: relative;
     z-index: 2;
-    -webkit-transition: 0.4s;
+    -webkit-transition: 0.2s;
     border: 0;
 }
 .blog-cust-btn:hover {
@@ -2391,11 +2388,11 @@ textarea.form-control {
     background-color: #F86A90;
     top: 50%;
     left: 0;
-    transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-    -webkit-transition: 0.4s;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transition: 0.2s;
     z-index: -11;
 }
 .blog-cust-btn:hover:before {
@@ -2409,11 +2406,11 @@ textarea.form-control {
     background-color: #F86A90;
     bottom: 50%;
     left: 0;
-    transition: 0.4s;
-    -moz-transition: 0.4s;
-    -ms-transition: 0.4s;
-    -o-transition: 0.4s;
-    -webkit-transition: 0.4s;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transition: 0.2s;
     z-index: -11;
 }
 .blog-cust-btn:hover:after {

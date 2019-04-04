@@ -792,7 +792,7 @@ header.stickey .logo-brand img{
 10. Exclusive Feature Section
    ========================================== */
 
-.feature-content h3 {
+/* .feature-content h3 {
     position: relative;
 }
 .feature-content h3::after {
@@ -811,7 +811,7 @@ header.stickey .logo-brand img{
 }
 .feature-content:hover h3:after {
     width: 20%;
-}
+} */
 .phone-holder {
     background: url(../images/exclusive-image/1.png);
     background-size: cover;

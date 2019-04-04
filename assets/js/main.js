@@ -145,50 +145,50 @@
            8.  App Screenshots
 ========================================== */
 
-  function waterwheelCarousel() {
-    $(".apps-carousel").waterwheelCarousel({
-      autoPlay: 4000,
-      speed: 200,
-      animationEasing: "linear",
-      preloadImages: true,
-      sizeMultiplier: 0.6
-    });
-  }
-  waterwheelCarousel();
+  // function waterwheelCarousel() {
+  //   $(".apps-carousel").waterwheelCarousel({
+  //     autoPlay: 4000,
+  //     speed: 200,
+  //     animationEasing: "linear",
+  //     preloadImages: true,
+  //     sizeMultiplier: 0.6
+  //   });
+  // }
+  // waterwheelCarousel();
 
-  function mobiCarousel() {
-    $(".mobi-carousel").waterwheelCarousel({
-      autoPlay: 4000,
-      speed: 200,
-      sidePadding: 60,
-      topPadding: 10,
-      animationEasing: "linear",
-      preloadImages: true,
-      sizeMultiplier: 0.6,
-      orientation: "vertical"
-    });
-  }
+  // function mobiCarousel() {
+  //   $(".mobi-carousel").waterwheelCarousel({
+  //     autoPlay: 4000,
+  //     speed: 200,
+  //     sidePadding: 60,
+  //     topPadding: 10,
+  //     animationEasing: "linear",
+  //     preloadImages: true,
+  //     sizeMultiplier: 0.6,
+  //     orientation: "vertical"
+  //   });
+  // }
 
-  var windows = $(window);
-  var winWidth = windows.width();
+  // var windows = $(window);
+  // var winWidth = windows.width();
 
-  if (winWidth < 700) {
-    $(".mobi-carousel")
-      .removeClass("apps-carousel")
-      .addClass("sm-carousel");
+  // if (winWidth < 700) {
+  //   $(".mobi-carousel")
+  //     .removeClass("apps-carousel")
+  //     .addClass("sm-carousel");
 
-    mobiCarousel();
-  }
+  //   mobiCarousel();
+  // }
 
   /* ==========================================
            9. background video
 ========================================== */
 
-  if ($("#video").length > 0) {
-    $(".autoplay").magnificPopup({
-      type: "iframe"
-    });
-  }
+  // if ($("#video").length > 0) {
+  //   $(".autoplay").magnificPopup({
+  //     type: "iframe"
+  //   });
+  // }
 
   /* ==========================================
            10. Smooth Scroll

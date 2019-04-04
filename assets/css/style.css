@@ -849,7 +849,7 @@ header.stickey .logo-brand img{
     color: #3F8EE8;
 }
 #features {
-    background: #fff;
+    background: #F5F5F5;
 }
 .feature-content .themeix-feature-title {
     font-size: 20px;
@@ -892,9 +892,7 @@ header.stickey .logo-brand img{
 11. App Screenshorts
    ========================================== */
 
-.exclusive-features-section {
-    background: #F5F5F5;
-}
+
 .trailer-video-overlay {
     background: #FFFFFF;
 }

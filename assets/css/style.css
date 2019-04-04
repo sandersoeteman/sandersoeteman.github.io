@@ -1200,13 +1200,21 @@ section#pricing {
 }
 .single-pricing {
   background-color: #f5f5f5;
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin-top: 50px;
   text-align: center;
   padding-bottom: 40px;
   overflow: hidden;
   position: relative;
   height: 885px;
+}
+.single-pricing .spacer {
+  flex: 1;
+}
+.single-pricing .small-text {
+  font-size: 70%;
+  font-weight: 70%;
 }
 span.price-tag {
   background-color: #f96a91;

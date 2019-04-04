@@ -1261,13 +1261,22 @@ span.dollar-cent {
   font-size: 16px;
 }
 ul.pricing-features {
-  padding: 30px 0;
+  padding: 30px 10px;
 }
 ul.pricing-features > li {
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 15px 0;
   font-weight: 400;
   font-size: 16px;
+}
+ul.pricing-features > li i {
+  width: 24px;
+  font-size: 24px;
+  margin-right: 16px;
+}
+ul.pricing-features > li span {
+  flex: 1;
 }
 .see-pricing {
   color: #fff;

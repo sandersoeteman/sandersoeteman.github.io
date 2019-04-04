@@ -1206,6 +1206,7 @@ section#pricing {
   padding-bottom: 40px;
   overflow: hidden;
   position: relative;
+  height: 885px;
 }
 span.price-tag {
   background-color: #f96a91;
@@ -1222,6 +1223,7 @@ span.price-tag {
   font-size: 36px;
   margin: 30px 0;
   text-transform: uppercase;
+  height: 120px;
 }
 .single-pricing h2 span {
   display: block;

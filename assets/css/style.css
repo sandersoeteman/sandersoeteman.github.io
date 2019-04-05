@@ -500,7 +500,12 @@ header.stickey .logo-brand img {
   z-index: 2;
   transition: 0.2s;
 }
-
+.themeix-button-group .themeix-btn.price-btn-cust.inverted {
+  background: #f96a91 !important;
+}
+.themeix-button-group .themeix-btn.price-btn-cust.inverted:hover {
+  background: #222222 !important;
+}
 .themeix-button-group .themeix-btn:first-letter {
   text-transform: capitalize;
 }
@@ -1286,14 +1291,8 @@ ul.pricing-features > li span {
 .single-pricing {
   transition: all 0.4s linear 0s;
 }
-.single-pricing:hover .price-table {
-  background-color: #4a4a4a;
-}
 .single-pricing .active-color {
   background: #f96a91;
-}
-.single-pricing:hover .price-table {
-  color: #ffffff;
 }
 .active-box-shadow {
   -webkit-box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
@@ -3413,10 +3412,4 @@ ul li.cat-item a {
 .blog-meta-wrapper .blog-cats,
 .blog-meta-wrapper .blog-author {
   color: #f86a90;
-}
-.themeix-button-group .themeix-btn.price-btn-cust.inverted {
-  background: #f96a91 !important;
-}
-.themeix-button-group .themeix-btn.price-btn-cust.inverted:hover {
-  background: #222222 !important;
 }

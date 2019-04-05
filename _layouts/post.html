@@ -5,78 +5,86 @@ layout: blog_layout
 {% include header_two.html %}
 
 <div class="appiex-blog-content section-ptb-2">
-   <div class="container">
-      <div class="row">
-         <div class="col-sm-12 col-md-8">
-            <div class="blog-item">
-               <div class="details-img"><img alt="{{page.title}}" src="{{ page.image_url }}"></div>
-               <div class="blog-details">
-                  <h3 class="blog-title">{{page.title}}</h3>
-                   {{page.content}}
-               </div>
-               <div class="blog-meta-wrapper">
-                  <div class="blog-meta">
-                     {% if page.tags %}
-                     <div class="blog-cats">
-                        <i class="fa fa-folder-open-o"></i>{{page.tags}}
-                     </div>
-                     {% endif %}
-                     {% if page.author %}
-                     <div class="blog-author">
-                        <i class="fa fa-user-o"></i> {{page.author}}
-                     </div>
-                     {% endif %}
-                  </div>
-                  {% include social_share.html %}
-               </div>
-               <div class="clearfix"></div>
-               <div class="blog-navigation">
-                  {% if page.previous.url %}
-                  <div class="previous-blog-post">
-                     <a href="{{page.previous.url}}"><i class="fa fa-angle-left"></i>Previous Article</a>
-                     <a href="{{page.previous.url}}"><p class="hover-color">{{ page.previous.title }}</p></a>
-                  </div>
-                  {% endif %}
-                  {% if page.next.url %}
-                  <div class="next-blog-post">
-                     <a href="{{page.next.url}}">Next Article <i class="fa fa-angle-right"></i></a>
-                     <a href="{{page.next.url}}"><p class="hover-color">{{ page.next.title }}</p></a>
-                  </div>
-                  {% endif %}
-               </div>
-               <div class="clearfix"></div>
-               <div id="comments">
-               {% if page.comments == true %}   
-                 {% include disqus_comments.html %} 
-                {% endif %}     
-               </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-8">
+        <div class="blog-item">
+          <div class="details-img">
+            <img alt="{{ page.title }}" src="{{ page.image_url }}" />
+          </div>
+          <div class="blog-details">
+            <h3 class="blog-title">{{ page.title }}</h3>
+            {{ page.content }}
+          </div>
+          <div class="blog-meta-wrapper">
+            <div class="blog-meta">
+              {% if page.tags %}
+              <div class="blog-cats">
+                <i class="fa fa-folder-open-o"></i>{{ page.tags }}
+              </div>
+              {% endif %} {% if page.author %}
+              <div class="blog-author">
+                <i class="fa fa-user-o"></i> {{ page.author }}
+              </div>
+              {% endif %}
             </div>
-         </div><!-- col-md-8 -->
-         <div class="col-md-3 col-sm-12 col-md-offset-1">
-            <div class="sidebar">
-               <div class="widget">
-                  <h3 class="widget-title">Topics Category</h3>
-                  <ul>
-                     <li class="cat-item">
-                       {{ site | tag_cloud }}
-                     </li>
-                  </ul>
-               </div>
-               <div class="widget custom">
-                  <h3 class="widget-title">Popular Recent Posts</h3>
-                  <ul>
-                    {% for posts in site.posts limit:"6" %}
-                     <li>
-                        <a href="{{posts.url}}">{{posts.title}}</a>
-                     </li>
-                     {% endfor %}
-                  </ul>
-               </div>
+            {% include social_share.html %}
+          </div>
+          <div class="clearfix"></div>
+          <div class="blog-navigation">
+            {% if page.previous.url %}
+            <div class="previous-blog-post">
+              <a href="{{ page.previous.url }}"
+                ><i class="fa fa-angle-left"></i>Previous Article</a
+              >
+              <a href="{{ page.previous.url }}"
+                ><p class="hover-color">{{ page.previous.title }}</p></a
+              >
             </div>
-         </div>
+            {% endif %} {% if page.next.url %}
+            <div class="next-blog-post">
+              <a href="{{ page.next.url }}"
+                >Next Article <i class="fa fa-angle-right"></i
+              ></a>
+              <a href="{{ page.next.url }}"
+                ><p class="hover-color">{{ page.next.title }}</p></a
+              >
+            </div>
+            {% endif %}
+          </div>
+          <div class="clearfix"></div>
+          <div id="comments">
+            {% if page.comments == true %} {% include disqus_comments.html %} {%
+            endif %}
+          </div>
+        </div>
       </div>
-   </div>
-</div><!-- start get appix now -->
+      <!-- col-md-8 -->
+      <div class="col-md-3 col-sm-12 col-md-offset-1">
+        <div class="sidebar">
+          <div class="widget">
+            <h3 class="widget-title">Topics Category</h3>
+            <ul>
+              <li class="cat-item">
+                {{ site | tag_cloud }}
+              </li>
+            </ul>
+          </div>
+          <div class="widget custom">
+            <h3 class="widget-title">Popular Recent Posts</h3>
+            <ul>
+              {% for posts in site.posts limit:"6" %}
+              <li>
+                <a href="{{ posts.url }}">{{ posts.title }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start get appix now -->
 
-{% include apps_download_link.html %}
-{% include footer_two.html %}
+{% include trial.html %} {% include footer_two.html %}

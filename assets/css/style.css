@@ -958,18 +958,7 @@ header.stickey .logo-brand img {
 .feature-section.highlight {
   padding-bottom: 15px;
 }
-@media only screen and (min-width: 768px) {
-  /* tablets and desktop */
-  .feature-section.highlight {
-    width: 45%;
-  }
-}
-@media only screen and (max-width: 767px) {
-  /* phones */
-  .feature-section.highlight {
-    width: 95%;
-  }
-}
+
 /* ==========================================
 11. App Screenshorts
    ========================================== */
@@ -1212,7 +1201,12 @@ header.stickey .logo-brand img {
 section#pricing {
   background-color: #fff;
 }
+.prices {
+  display: flex;
+  flex-direction: row;
+}
 .single-pricing {
+  flex: 1;
   background-color: #f5f5f5;
   display: flex;
   flex-direction: column;
@@ -1221,7 +1215,9 @@ section#pricing {
   padding-bottom: 40px;
   overflow: hidden;
   position: relative;
-  height: 885px;
+}
+.single-pricing:not(:first-child) {
+  margin-left: 20px;
 }
 .single-pricing .spacer {
   flex: 1;
@@ -1240,12 +1236,13 @@ span.price-tag {
   top: 20px;
   transform: rotate(45deg);
   width: 100%;
+  display: none;
 }
 .single-pricing > h2 {
   font-size: 36px;
   margin: 30px 0;
   text-transform: uppercase;
-  height: 120px;
+  min-height: 120px;
 }
 .single-pricing h2 span {
   display: block;

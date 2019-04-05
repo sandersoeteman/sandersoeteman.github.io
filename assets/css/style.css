@@ -723,9 +723,16 @@ header.stickey .logo-brand img {
    ========================================== */
 
 .about-pb {
+  display: flex;
+  flex-direction: row;
   padding-top: 80px;
-  padding-bottom: 80px;
   overflow: hidden;
+}
+.about-text {
+  flex: 3;
+}
+.about-image {
+  flex: 2;
 }
 /* ==========================================
 8. Our Services

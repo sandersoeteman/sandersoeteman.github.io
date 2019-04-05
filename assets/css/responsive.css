@@ -7,9 +7,6 @@
   .change-color {
     color: #fff;
   }
-  .about-appix-left-img {
-    margin-top: 95px;
-  }
   .first-skew-sub-1,
   .first-skew-sub-2,
   .first-skew-bg {
@@ -77,10 +74,6 @@
   /* about appix*/
   .about-appix-right-content {
     text-align: center;
-  }
-  .about-pb {
-    padding-top: 100px;
-    padding-bottom: 70px;
   }
   .about-appix-left-img img {
     text-align: center;
@@ -213,6 +206,14 @@
     padding-top: 42px;
     padding-bottom: 20px;
     overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-pb.reverse {
+    flex-direction: column-reverse;
+  }
+  .about-image {
+    width: 60%;
   }
 
   /* exclusive feature*/

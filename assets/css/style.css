@@ -915,9 +915,6 @@ header.stickey .logo-brand img {
 .feature-content .themeix-feature-title i {
   margin-right: 20px;
 }
-.feature-section.highlight {
-  padding-bottom: 15px;
-}
 .exclusive-img-section {
   text-align: center;
 }
@@ -947,19 +944,23 @@ header.stickey .logo-brand img {
   visibility: visible;
 }
 #features .grid-wrapper {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.feature-section.highlight {
+  padding-bottom: 15px;
 }
 @media only screen and (min-width: 768px) {
   /* tablets and desktop */
-  #features .grid-wrapper {
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 10%;
+  .feature-section.highlight {
+    width: 45%;
   }
 }
 @media only screen and (max-width: 767px) {
   /* phones */
-  #features .grid-wrapper {
-    grid-template-columns: 1fr;
+  .feature-section.highlight {
+    width: 95%;
   }
 }
 /* ==========================================

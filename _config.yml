@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ssured.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: thepokayoka
 github_username:  pokayoka
+productName: Pokayoka
 
 # Build settings
 markdown: kramdown
@@ -109,15 +110,15 @@ tag_dir: tag/
 
 # For Contact Form
 
-formspree_account: 'https://formspree.io/rubel2585@gmail.com'
-twitter_widget_id: '428888163344326656'
-twitter_username: 'themeix_ltd'
-facebook_url: 'http://facebook.com/themeix'
-twitter_url: 'http://twitter.com/themeix_ltd'
-web_url: 'http://themeix.com'
-google_plus_url: 'https://plus.google.com/105073267822323302156'
-linkedin_url: 'http://linkedin.com/themeix'
-pinterest_url: 'http://pinterest.com/themeix'
+formspree_account: 'https://formspree.io/mrygaqex'
+twitter_widget_id: ''
+twitter_username: 'thepokayoka'
+facebook_url: 'http://facebook.com/pokayoka'
+twitter_url: 'http://twitter.com/thepokayoka'
+web_url: 'http://www.pokayoka.com'
+google_plus_url: ''
+linkedin_url: 'http://linkedin.com/pokayoka'
+pinterest_url: 'x'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

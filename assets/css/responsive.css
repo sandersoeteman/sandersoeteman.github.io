@@ -24,6 +24,9 @@
   .navbar--header {
     justify-content: start;
   }
+  .header-container .right {
+    display: block;
+  }
 }
 
 /* Tablet layout:768px  */
@@ -348,6 +351,17 @@
   }
   .navbar--header {
     justify-content: space-between;
+  }
+  .header-container {
+    flex-direction: column;
+  }
+  .header-container .left {
+    width: 100%;
+  }
+  .header-container .right {
+    display: flex;
+    align-items: start;
+    width: 100%;
   }
 }
 

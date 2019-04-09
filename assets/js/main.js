@@ -60,7 +60,7 @@
   // });
 
   /* ==========================================
-           2. stickey menu
+           2. sticky menu
    ========================================== */
 
   function sticky_menu() {
@@ -68,9 +68,9 @@
     windows.on("scroll", function() {
       var scroll = windows.scrollTop();
       if (scroll < 110) {
-        $("#stickey-menu").removeClass("stickey");
+        $("#sticky-menu").removeClass("sticky");
       } else {
-        $("#stickey-menu").addClass("stickey");
+        $("#sticky-menu").addClass("sticky");
       }
     });
   }

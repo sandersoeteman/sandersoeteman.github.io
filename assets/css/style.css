@@ -314,7 +314,20 @@ header {
 .logo-brand {
   float: left;
 }
-
+header .container h1 {
+  font-size: 42px;
+  margin: 0;
+  color: #222;
+}
+header.sticky .container h1 {
+  font-size: 28px;
+  margin-top: 9px;
+}
+.registered::after {
+  content: "\00AE";
+  font-size: 30%;
+  vertical-align: super;
+}
 .log-icon {
   float: left;
   font-size: 43px;
@@ -358,11 +371,11 @@ header {
   background-color: #f86a90;
   border-radius: 39px;
 }
-.stickey .navbar-nav li a:hover {
+.sticky .navbar-nav li a:hover {
   background-color: transparent !important;
   color: #f96a91;
 }
-.stickey .main-menu .navbar-nav li.active a {
+.sticky .main-menu .navbar-nav li.active a {
   color: #f96a91;
 }
 .navbar-nav li a:hover,
@@ -377,7 +390,7 @@ header {
   height: 47px;
   width: auto !important;
 }
-header.stickey .logo-brand img {
+header.sticky .logo-brand img {
   height: 30px;
   width: auto !important;
   margin-top: 9px;
@@ -708,7 +721,7 @@ header.stickey .logo-brand img {
 6. Sticky Menu
    ========================================== */
 
-.stickey .main-menu {
+.sticky .main-menu {
   animation: 0.2s linear 0s normal none 1 running fadeInDown;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background: #ffffff;
@@ -723,7 +736,7 @@ header.stickey .logo-brand img {
   padding: 0px 0;
   border: 0;
 }
-.stickey .main-menu ul li a {
+.sticky .main-menu ul li a {
   color: #303030;
 }
 /* ==========================================

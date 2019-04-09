@@ -213,4 +213,9 @@
     window.addEventListener("click", clickHandler, false);
   };
   smoothScrollWithoutHash('a[href*="#"]');
+
+  /* ==========================================
+           11. Footer
+========================================== */
+  $("span.copyright-year").html(new Date().getFullYear());
 })(jQuery);

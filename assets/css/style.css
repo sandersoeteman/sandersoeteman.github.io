@@ -579,6 +579,9 @@ header.sticky .logo-brand img {
 .border-rad {
   border-radius: 4px;
 }
+.overlay {
+  background: #44d8ceaa;
+}
 /* ==========================================
 	5. About Section
    ========================================== */
@@ -3418,6 +3421,8 @@ ul li.cat-item a {
   color: #f86a90;
 }
 .text-with-background {
-  background: #333;
+  background: white;
+  color: black;
   display: inline;
+  mix-blend-mode: screen;
 }

@@ -2,17 +2,19 @@
   class="skew themeix-bg first-skew first-skew-deg-3 remove-top-skew"
   id="home"
 >
-  <div class="main-slider-overlay">
+  <div>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="owl-carousel">
             <div class="col-md-8">
               <div class="caption-area">
-                <h1 class="caption-heading">{{ site.productName }}</h1>
-                <p class="caption-para">{{ page.title }}</p>
+                <h1 class="caption-heading">
+                  <span class="text-with-background registered">{{- site.productName -}}</span>
+                </h1>
+                <p class="caption-para"><span class="text-with-background">{{ page.title }}</span></p>
                 <p class="caption-para-second">
-                  {{ page.captionParagraph }}
+                  <span class="text-with-background">{{ page.captionParagraph }}</span>
                 </p>
                 <div class="themeix-button-group">
                   {% include action_buttons.html %}

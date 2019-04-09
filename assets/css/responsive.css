@@ -21,6 +21,9 @@
   .first-skew-bg {
     transform-origin: 581% 50%;
   }
+  .navbar--header {
+    justify-content: start;
+  }
 }
 
 /* Tablet layout:768px  */
@@ -342,6 +345,9 @@
   }
   .single-pricing h2 {
     min-height: inherit;
+  }
+  .navbar--header {
+    justify-content: space-between;
   }
 }
 

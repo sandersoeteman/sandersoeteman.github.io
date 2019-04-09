@@ -308,11 +308,23 @@ header {
   padding: 20px 0px;
   background: #fff;
 }
+.navbar--header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container .left {
+  padding-left: 15px;
+}
 .navbar-nav {
   margin: 5.5px -15px !important;
-}
-.logo-brand {
-  float: left;
 }
 header .container h1 {
   font-size: 42px;
@@ -321,7 +333,6 @@ header .container h1 {
 }
 header.sticky .container h1 {
   font-size: 28px;
-  margin-top: 8px;
 }
 .registered::after {
   content: "\00AE";

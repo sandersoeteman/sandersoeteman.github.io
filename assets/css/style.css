@@ -696,6 +696,14 @@ header.stickey .logo-brand img {
 .themeix-button-group .themeix-danger:hover {
   color: #ffffff !important;
 }
+.about-section ul.benefits,
+.about-section ol.benefits {
+  margin-left: 12px;
+}
+.about-section ul.benefits li i,
+.about-section ol.benefits li i {
+  margin-right: 8px;
+}
 /* ==========================================
 6. Sticky Menu
    ========================================== */

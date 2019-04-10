@@ -30,6 +30,9 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
 
+sass:
+    style: compact
+
 
 # Tag Options
 

@@ -150,7 +150,7 @@ h4 {
 }
 .bg-change {
   background: #ffffff !important;
-  color: #f96a91 !important;
+  color: #12199c !important;
 }
 /*===================
  2.3. All Padding Margin
@@ -252,7 +252,7 @@ section.pt-25 {
 .appix-danger {
   display: inline-block;
   padding: 12px 52px;
-  background: #f96a91;
+  background: #12199c;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 400;
@@ -366,7 +366,7 @@ header.sticky .container h1 {
   float: right;
   text-align: center;
   padding: 12px 8px;
-  background: #f96a91;
+  background: #12199c;
   margin-top: 0px;
 }
 .main-menu .navbar-nav li a {
@@ -384,10 +384,10 @@ header.sticky .container h1 {
 }
 .sticky .navbar-nav li a:hover {
   background-color: transparent !important;
-  color: #f96a91;
+  color: #12199c;
 }
 .sticky .main-menu .navbar-nav li.active a {
-  color: #f96a91;
+  color: #12199c;
 }
 .navbar-nav li a:hover,
 .navbar-nav li a:focus,
@@ -475,7 +475,7 @@ header.sticky .logo-brand img {
   display: inline-block;
   font-size: 15px;
   line-height: 24px;
-  background: #f96a91;
+  background: #12199c;
   margin-right: 12px;
   font-weight: 400;
   color: #fff;
@@ -484,7 +484,7 @@ header.sticky .logo-brand img {
   transition: 0.2s;
 }
 .themeix-button-group .themeix-btn.price-btn-cust.inverted {
-  background: #f96a91 !important;
+  background: #12199c !important;
 }
 .themeix-button-group .themeix-btn.price-btn-cust.inverted:hover {
   background: #222222 !important;
@@ -493,7 +493,7 @@ header.sticky .logo-brand img {
   text-transform: capitalize;
 }
 .themeix-button-group .themeix-btn:hover {
-  color: #f96a91;
+  color: #12199c;
 }
 .themeix-button-group .themeix-btn:before {
   content: "";
@@ -536,7 +536,7 @@ header.sticky .logo-brand img {
   width: 100%;
   height: 0;
   position: absolute;
-  background-color: #f96a91;
+  background-color: #12199c;
   top: 50%;
   left: 0;
   transition: 0.2s;
@@ -554,7 +554,7 @@ header.sticky .logo-brand img {
   width: 100%;
   height: 0;
   position: absolute;
-  background-color: #f96a91;
+  background-color: #12199c;
   bottom: 50%;
   left: 0;
   transition: 0.2s;
@@ -571,7 +571,7 @@ header.sticky .logo-brand img {
   color: #ffffff !important;
 }
 .themeix-button-group .bg-change {
-  background: #f96a91;
+  background: #12199c;
 }
 .mr {
   margin-right: 10px;
@@ -789,54 +789,7 @@ header.sticky .logo-brand img {
   outline: 1px solid transparent;
   -webkit-backface-visibility: hidden;
 }
-.bg-gradient {
-  background: -moz-linear-gradient(
-    35deg,
-    rgba(249, 106, 145, 1) 0%,
-    rgba(54, 148, 244, 1) 100%
-  );
-  /* ff3.6+ */
 
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    right top,
-    color-stop(0%, rgba(249, 106, 145, 1)),
-    color-stop(100%, rgba(54, 148, 244, 1))
-  );
-  /* safari4+,chrome */
-
-  background: -webkit-linear-gradient(
-    35deg,
-    rgba(249, 106, 145, 1) 0%,
-    rgba(54, 148, 244, 1) 100%
-  );
-  /* safari5.1+,chrome10+ */
-
-  background: -o-linear-gradient(
-    35deg,
-    rgba(249, 106, 145, 1) 0%,
-    rgba(54, 148, 244, 1) 100%
-  );
-  /* opera 11.10+ */
-
-  background: -ms-linear-gradient(
-    35deg,
-    rgba(249, 106, 145, 1) 0%,
-    rgba(54, 148, 244, 1) 100%
-  );
-  /* ie10+ */
-
-  background: linear-gradient(
-    55deg,
-    rgba(249, 106, 145, 1) 0%,
-    rgba(54, 148, 244, 1) 100%
-  );
-  /* w3c */
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f96a91', endColorstr='#3694F4', GradientType=1);
-  /* ie6-9 */
-}
 .skew__deg-2 .skew_bg {
   transform: skewY(-6deg);
   margin-bottom: -11.86869%;
@@ -1158,7 +1111,7 @@ header.sticky .logo-brand img {
   content: "\f005   \f005   \f005   \f005   \f005";
   font-family: "FontAwesome";
   font-size: 20px;
-  color: #f96a91;
+  color: #12199c;
 }
 .owl-controls .owl-nav div {
   display: inline-block;
@@ -1221,7 +1174,7 @@ section#pricing {
   font-weight: 70%;
 }
 span.price-tag {
-  background-color: #f96a91;
+  background-color: #12199c;
   color: #fff;
   font-size: 14px;
   padding: 5px;
@@ -1291,7 +1244,7 @@ ul.pricing-features > li span {
   transition: all 0.4s linear 0s;
 }
 .single-pricing .active-color {
-  background: #f96a91;
+  background: #12199c;
 }
 .active-box-shadow {
   -webkit-box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
@@ -1362,10 +1315,10 @@ ul.pricing-plan li {
 .themeix-button-group .active-bg {
   padding: 14px 60px !important;
   font-size: 15px !important;
-  background: #f96a91 !important;
+  background: #12199c !important;
 }
 .themeix-price-active {
-  background: #f96a91 !important;
+  background: #12199c !important;
 }
 /*=========================================
     themeix-price-button-active
@@ -1419,7 +1372,7 @@ ul.pricing-plan li {
   width: 100%;
   height: 0;
   position: absolute;
-  background-color: #f96a91;
+  background-color: #12199c;
   top: 50%;
   left: 0;
   transition: 0.2s;
@@ -1437,7 +1390,7 @@ ul.pricing-plan li {
   width: 100%;
   height: 0;
   position: absolute;
-  background-color: #f96a91;
+  background-color: #12199c;
   bottom: 50%;
   left: 0;
   transition: 0.2s;
@@ -1472,7 +1425,7 @@ ul.pricing-plan li {
   text-align: center;
 }
 .play-store-button {
-  background: #f96a91;
+  background: #12199c;
   padding: 18px 25px;
   text-align: center;
   color: #ffffff;
@@ -1519,41 +1472,6 @@ ul.pricing-plan li {
   background-size: cover;
   background-position: center center;
 }
-.overlay-color {
-  background: -moz-linear-gradient(
-    35deg,
-    rgba(249, 106, 145, 1) 0%,
-    rgba(54, 148, 244, 0.7) 100%
-  );
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    right top,
-    color-stop(0%, rgba(249, 106, 145, 0.7)),
-    color-stop(100%, rgba(54, 148, 244, 1))
-  );
-  background: -webkit-linear-gradient(
-    35deg,
-    rgba(249, 106, 145, 1) 0%,
-    rgba(54, 148, 244, 0.7) 100%
-  );
-  background: -o-linear-gradient(
-    35deg,
-    rgba(249, 106, 145, 1) 0%,
-    rgba(54, 148, 244, 0.7) 100%
-  );
-  background: -ms-linear-gradient(
-    35deg,
-    rgba(249, 106, 145, 1) 0%,
-    rgba(54, 148, 244, 0.7) 100%
-  );
-  background: linear-gradient(
-    55deg,
-    rgba(249, 106, 145, 1) 0%,
-    rgba(54, 148, 244, 0.7) 100%
-  );
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f96a91', endColorstr='#3694F4', GradientType=1);
-}
 .title-color-change {
   color: #ffffff !important;
 }
@@ -1563,7 +1481,7 @@ ul.pricing-plan li {
 .themeix-button-group button {
   border-radius: 0 !important;
   border: 0;
-  background: #f96a91 !important;
+  background: #12199c !important;
 }
 input[type="text"],
 input[type="email"],
@@ -1595,7 +1513,7 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus,
 textarea:focus {
-  border: 1px solid #f96a91;
+  border: 1px solid #12199c;
 }
 .themeix-button-group .themeix-submit-btn {
   padding: 12px 30px;
@@ -1603,7 +1521,7 @@ textarea:focus {
   font-size: 13px;
   text-transform: uppercase;
   line-height: 24px;
-  background: #f96a91;
+  background: #12199c;
   margin-right: 12px;
   font-weight: 400;
 
@@ -1641,54 +1559,7 @@ textarea:focus {
   width: 700px;
   height: 700px;
 }
-input::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
 
-  color: #606060;
-  opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
-input::-moz-placeholder {
-  /* Firefox 19+ */
-
-  color: #606060;
-  opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
-input:-ms-input-placeholder {
-  /* IE 10+ */
-
-  color: #606060;
-  opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
-input:-moz-placeholder {
-  /* Firefox 18- */
-
-  color: #606060;
-  opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
-textarea::-webkit-input-placeholder {
-  color: #606060;
-  opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
-textarea::-moz-placeholder {
-  color: #606060;
-  opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
-textarea:-ms-input-placeholder {
-  color: #606060;
-  opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
-textarea:-moz-placeholder {
-  color: #606060;
-  opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
 /* ==========================================
            17. Footer Area
    ========================================== */
@@ -1875,10 +1746,10 @@ ul.page-list li a {
 ul.blog-author-name li {
   display: inline-block;
   margin-right: 10px;
-  color: #f96a91;
+  color: #12199c;
 }
 ul.blog-author-name li a {
-  color: #f96a91;
+  color: #12199c;
 }
 ul.blog-author-name li i {
   margin-right: 10px;
@@ -1890,9 +1761,9 @@ ul.blog-author-name li i {
   line-height: 24px;
 }
 .themeix-second-button .btn-read {
-  background-color: #f96a91;
+  background-color: #12199c;
   color: #fff;
-  border: 2px solid #f96a91;
+  border: 2px solid #12199c;
   border-radius: 4px;
   text-transform: uppercase;
   font-size: 12px;
@@ -2083,11 +1954,11 @@ h5.author-title {
   margin-right: 8px;
 }
 .pagination li a:hover {
-  background: #f96a91;
+  background: #12199c;
   color: #ffffff;
 }
 .pagination li a.active {
-  background: #f96a91;
+  background: #12199c;
   color: #ffffff;
 }
 /* ==========================================
@@ -2199,7 +2070,7 @@ h5.author-title {
   height: 47px;
   width: 43px;
   line-height: 42px;
-  background: #f96a91;
+  background: #12199c;
   color: #fff;
   border: 0;
 }
@@ -2316,7 +2187,7 @@ ul.tagcloud li.widget-active a {
   color: #222222;
 }
 .left-link-item ul li a {
-  color: #f96a91;
+  color: #12199c;
 }
 .middle-section {
   position: relative;
@@ -3165,47 +3036,6 @@ textarea.form-control {
 }
 /*our-service-section*/
 
-.home-page-v-three .bg {
-  background: -moz-linear-gradient(
-    45deg,
-    rgba(54, 148, 244, 0.88) 0%,
-    rgba(255, 105, 142, 0.88) 100%,
-    rgba(255, 105, 142, 0.88) 100%
-  );
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    right top,
-    color-stop(0%, rgba(54, 148, 244, 0.88)),
-    color-stop(100%, rgba(255, 105, 142, 1)),
-    color-stop(100%, rgba(255, 105, 142, 1))
-  );
-  background: -webkit-linear-gradient(
-    45deg,
-    rgba(54, 148, 244, 0.88) 0%,
-    rgba(255, 105, 142, 0.88) 100%,
-    rgba(255, 105, 142, 0.88) 100%
-  );
-  background: -o-linear-gradient(
-    45deg,
-    rgba(54, 148, 244, 0.88) 0%,
-    rgba(255, 105, 142, 0.88) 100%,
-    rgba(255, 105, 142, 0.88) 100%
-  );
-  background: -ms-linear-gradient(
-    45deg,
-    rgba(54, 148, 244, 0.88) 0%,
-    rgba(255, 105, 142, 0.88) 100%,
-    rgba(255, 105, 142, 0.88) 100%
-  );
-  background: linear-gradient(
-    45deg,
-    rgba(54, 148, 244, 0.88) 0%,
-    rgba(255, 105, 142, 0.88) 100%,
-    rgba(255, 105, 142, 0.88) 100%
-  );
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff698e', endColorstr='#3694f4', GradientType=1);
-}
 .home-page-v-three .caption-area .dark-send-input {
   position: relative;
 }
@@ -3222,7 +3052,7 @@ textarea.form-control {
   position: absolute;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
-  background: #f96a91;
+  background: #12199c;
   color: #fff;
   font-size: 22px;
 }
@@ -3246,53 +3076,12 @@ textarea.form-control {
   position: absolute;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
-  background: #f96a91;
+  background: #12199c;
   color: #fff;
   font-size: 22px;
 }
 /*our-service-section*/
 
-.home-page-v-two .bg {
-  background: -moz-linear-gradient(
-    45deg,
-    rgba(54, 148, 244, 0.88) 0%,
-    rgba(255, 105, 142, 0.88) 100%,
-    rgba(255, 105, 142, 0.88) 100%
-  );
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    right top,
-    color-stop(0%, rgba(54, 148, 244, 0.88)),
-    color-stop(100%, rgba(255, 105, 142, 1)),
-    color-stop(100%, rgba(255, 105, 142, 1))
-  );
-  background: -webkit-linear-gradient(
-    45deg,
-    rgba(54, 148, 244, 0.88) 0%,
-    rgba(255, 105, 142, 0.88) 100%,
-    rgba(255, 105, 142, 0.88) 100%
-  );
-  background: -o-linear-gradient(
-    45deg,
-    rgba(54, 148, 244, 0.88) 0%,
-    rgba(255, 105, 142, 0.88) 100%,
-    rgba(255, 105, 142, 0.88) 100%
-  );
-  background: -ms-linear-gradient(
-    45deg,
-    rgba(54, 148, 244, 0.88) 0%,
-    rgba(255, 105, 142, 0.88) 100%,
-    rgba(255, 105, 142, 0.88) 100%
-  );
-  background: linear-gradient(
-    45deg,
-    rgba(54, 148, 244, 0.88) 0%,
-    rgba(255, 105, 142, 0.88) 100%,
-    rgba(255, 105, 142, 0.88) 100%
-  );
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff698e', endColorstr='#3694f4', GradientType=1);
-}
 /* ==========================================================================
                  30. Print styles
    ========================================================================== */

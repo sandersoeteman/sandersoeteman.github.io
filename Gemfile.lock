@@ -223,6 +223,7 @@ DEPENDENCIES
   jekyll (~> 3.5.2)
   jekyll-feed (~> 0.6)
   jekyll-paginate-v2 (= 2.0.0)
+  jekyll-sass-converter
   jekyll-tagging
   minima (~> 2.0)
   tzinfo-data

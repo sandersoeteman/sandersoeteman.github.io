@@ -629,12 +629,12 @@ header.sticky .logo-brand img {
 .themeix-section-heading-title .light-300 {
   padding: 0 70px;
   margin-top: 47px;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
   font-weight: 400;
   max-width: 80%;
   margin: 0 auto;
   margin-top: 45px;
-  margin-bottom: 45px;
+  // margin-bottom: 45px;
 }
 .change-color {
   color: #ffffff;
@@ -897,7 +897,8 @@ header.sticky .logo-brand img {
 .hgi.active {
   visibility: visible;
 }
-#features .grid-wrapper {
+#features .grid-wrapper,
+#who .grid-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

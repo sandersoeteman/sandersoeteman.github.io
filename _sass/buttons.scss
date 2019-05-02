@@ -1,0 +1,117 @@
+.themeix-button-group .themeix-btn {
+  padding: 12px 20px;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 24px;
+  background: $brand-tertiary;
+  margin-right: 12px;
+  font-weight: 400;
+  color: $gray-darker;
+  position: relative;
+  z-index: 2;
+  transition: 0.2s;
+  border: 1px solid $brand-tertiary;
+}
+.themeix-button-group .themeix-btn.price-btn-cust.inverted {
+  background: $brand-tertiary !important;
+}
+.themeix-button-group .themeix-btn.price-btn-cust.inverted:hover {
+  background: #222222 !important;
+}
+.themeix-button-group .themeix-btn:first-letter {
+  text-transform: capitalize;
+}
+.themeix-button-group .themeix-btn:before {
+  content: "";
+  width: 100%;
+  height: 0;
+  position: absolute;
+  background-color: #ffffff;
+  top: 50%;
+  left: 0;
+  transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  z-index: -11;
+}
+.themeix-button-group .themeix-btn:hover:before {
+  height: 50%;
+}
+.themeix-button-group .themeix-btn:after {
+  content: "";
+  width: 100%;
+  height: 0;
+  position: absolute;
+  background-color: #ffffff;
+  bottom: 50%;
+  left: 0;
+  transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  z-index: -11;
+}
+.themeix-button-group .themeix-btn:hover:after {
+  height: 50%;
+}
+.themeix-button-group .btn-clear:before {
+  content: "";
+  width: 100%;
+  height: 0;
+  position: absolute;
+  background-color: $brand-secondary;
+  top: 50%;
+  left: 0;
+  transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  z-index: -11;
+}
+.themeix-button-group .btn-clear:hover:before {
+  height: 50%;
+}
+.themeix-button-group .btn-clear:after {
+  content: "";
+  width: 100%;
+  height: 0;
+  position: absolute;
+  background-color: $brand-secondary;
+  bottom: 50%;
+  left: 0;
+  transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  z-index: -11;
+}
+.themeix-button-group .btn-clear:hover:after {
+  height: 50%;
+}
+.themeix-button-group .btn-clear:hover {
+  color: #ffffff !important;
+}
+.themeix-button-group .btn-clear {
+  background: transparent;
+  border: 1px solid $brand-secondary;
+  color: $brand-secondary;
+}
+
+.themeix-button-group .btn-clear.btn-clear-white:before {
+  background-color: white;
+}
+.themeix-button-group .btn-clear.btn-clear-white:after {
+  background-color: white;
+}
+.themeix-button-group .btn-clear.btn-clear-white:hover {
+  color: $gray-darker !important;
+}
+.themeix-button-group .btn-clear.btn-clear-white {
+  border-color: $white;
+  color: $white;
+}

@@ -66,15 +66,19 @@ h1 {
 }
 h2 {
   font-size: 36px;
+  line-height: 48px;
   color: $brand-primary;
   letter-spacing: 1px;
 }
 h3 {
   font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 1px;
 }
 h4 {
   font-family: Axiforma;
   font-size: 17px;
+  line-height: 24px;
 }
 
 /* ==============================================
@@ -192,10 +196,6 @@ section.pt-25 {
   padding-bottom: 80px;
 }
 .themeix-title-h1 {
-  font-size: 36px;
-  line-height: 48px;
-  color: #333;
-  font-weight: 400;
   margin-bottom: 20px;
 }
 .appix-danger {
@@ -524,6 +524,14 @@ img.icon {
   flex-direction: row;
   padding-top: 60px;
   overflow: hidden;
+
+  .about-text {
+    margin-left: 12px;
+  }
+  &.reverse .about-text {
+    margin-right: 12px;
+    margin-left: 0;
+  }
 }
 .about-text {
   flex: 4;

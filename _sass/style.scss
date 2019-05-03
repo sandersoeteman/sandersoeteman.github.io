@@ -79,6 +79,7 @@ h4 {
   font-family: Axiforma;
   font-size: 17px;
   line-height: 24px;
+  color: $brand-primary;
 }
 
 /* ==============================================
@@ -670,16 +671,23 @@ img.icon {
 
 #features {
   background: #f5f5f5;
+
+  h4 span {
+    color: $brand-primary;
+  }
 }
 .feature-content .themeix-feature-title {
-  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   margin-bottom: 5px;
 
-  color: #f86a90;
+  img {
+    height: 42px;
+    margin-right: 16px;
+  }
 }
-.feature-content .themeix-feature-title i {
-  margin-right: 20px;
-}
+
 .exclusive-img-section {
   text-align: center;
 }

@@ -8,8 +8,10 @@ header {
         margin: 0 15px;
 
         a {
+          font-family: AxiformaBold;
+          letter-spacing: 1px;
           padding: 4px 0;
-          font-size: 14px;
+          font-size: 12px;
           display: block;
           font-weight: bold;
           color: $gray-darkest;

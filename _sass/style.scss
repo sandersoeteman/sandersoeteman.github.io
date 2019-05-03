@@ -669,8 +669,9 @@ img.icon {
   text-align: left;
 }
 
-#features {
-  background: #f5f5f5;
+#features,
+#pricing {
+  background: $gray-lightest;
 
   h4 span {
     color: $brand-primary;
@@ -867,7 +868,7 @@ img.icon {
    ========================================== */
 
 .our-testimonials-section {
-  background: #f5f5f5;
+  background: $gray-lightest;
 }
 .single-testimonials-section {
   position: relative;
@@ -965,9 +966,6 @@ img.icon {
 14. Pricing 
    ========================================== */
 
-section#pricing {
-  background-color: $white;
-}
 .prices {
   display: flex;
   flex-direction: row;
@@ -1232,7 +1230,6 @@ ul.pricing-plan li {
 
 .get-appix-setion {
   overflow: hidden;
-  background: #f5f5f5;
 }
 .display-middle {
   display: table;

@@ -1,0 +1,42 @@
+header {
+  .main-menu {
+    .navbar-nav {
+      display: flex;
+      flex-direction: row;
+
+      li {
+        margin: 0 15px;
+
+        a {
+          padding: 4px 0;
+          font-size: 14px;
+          display: block;
+          font-weight: bold;
+          color: $gray-darkest;
+          border-bottom: 2px solid transparent;
+        }
+        a:hover {
+          color: $brand-primary;
+          border-color: $brand-primary;
+        }
+        a:hover,
+        a:focus,
+        a:active {
+          background: none;
+        }
+      }
+    }
+  }
+
+  &.sticky .main-menu {
+    .navbar-nav {
+      li a:hover {
+        background-color: transparent !important;
+        color: $brand-primary;
+      }
+      li.active a {
+        color: $brand-primary;
+      }
+    }
+  }
+}

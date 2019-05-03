@@ -8,13 +8,9 @@
   outline: none;
 }
 body {
-  font-family: "Roboto Slab", serif;
-  font-weight: 400;
+  font-family: "OpenSans", sans-serif;
   line-height: 25px;
   font-size: 16px;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
 }
 ::-moz-selection {
   background: #b3d4fc;
@@ -45,7 +41,8 @@ img {
   max-width: 100%;
 }
 p {
-  color: #222222;
+  color: $white;
+  font-size: 16px;
 }
 /*=========================
     2.Typography	
@@ -57,22 +54,26 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Patua One", cursive;
-  -webkit-font-variant-ligatures: common-ligatures;
+  font-family: "Axiforma", cursive;
   font-variant-ligatures: common-ligatures;
-  font-weight: 400;
+  font-weight: normal;
 }
 h1 {
+  font-weight: bolder;
   font-size: 48px;
+  line-height: 60px;
 }
 h2 {
+  font-weight: bolder;
   font-size: 36px;
 }
 h3 {
-  font-size: 24px;
+  font-weight: bolder;
+  font-size: 30px;
 }
 h4 {
-  font-size: 14px;
+  font-weight: normal;
+  font-size: 17px;
 }
 
 /* ==============================================
@@ -96,7 +97,7 @@ h4 {
   padding: 0;
 }
 .bg-change {
-  background: #ffffff !important;
+  background: $white !important;
   color: #12199c !important;
 }
 /*===================
@@ -200,7 +201,7 @@ section.pt-25 {
   display: inline-block;
   padding: 12px 52px;
   background: #12199c;
-  color: #ffffff;
+  color: $white;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 12px;
@@ -209,7 +210,7 @@ section.pt-25 {
   transition: all 00.2s;
 }
 .appix-danger:hover {
-  color: #fff;
+  color: $white;
 }
 .b-mr {
   margin-right: 25px;
@@ -218,7 +219,7 @@ section.pt-25 {
   display: inline-block;
   padding: 12px 20px;
   background: #3694f4;
-  color: #ffffff;
+  color: $white;
   text-transform: uppercase;
   font-weight: 400;
   text-align: center;
@@ -227,7 +228,7 @@ section.pt-25 {
   transition: all 00.2s;
 }
 .appix-info:hover {
-  color: #fff;
+  color: $white;
 }
 .para-mb {
   margin-bottom: 42px;
@@ -253,7 +254,7 @@ header {
   transition: all 00.2s;
   border-bottom: 1px solid rgba(245, 245, 245, 0.1);
   padding: 20px 0px;
-  background: #fff;
+  background: $white;
 }
 .navbar--header {
   display: flex;
@@ -269,9 +270,6 @@ header {
 }
 .header-container .left {
   padding-left: 15px;
-}
-.navbar-nav {
-  margin: 5.5px -15px !important;
 }
 header .container h1 {
   font-size: 42px;
@@ -291,7 +289,7 @@ header.sticky .container h1 {
   font-size: 43px;
   background: #424242;
   padding: 4px 20px;
-  color: #fff;
+  color: $white;
 }
 .custom-toggle {
   position: relative;
@@ -304,43 +302,19 @@ header.sticky .container h1 {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
-  color: #ffffff;
+  color: $white;
 }
 .themeix-logo-title {
   font-size: 28px;
   font-weight: 500;
-  color: #fff;
+  color: $white;
   float: right;
   text-align: center;
   padding: 12px 8px;
   background: #12199c;
   margin-top: 0px;
 }
-.main-menu .navbar-nav li a {
-  padding: 8px 15px;
-  font-size: 16px;
-  display: block;
-  transition: all 00.2s ease-in-out;
-  font-weight: 400;
-  color: #222222;
-}
-.main-menu .navbar-nav li a:hover {
-  color: #fff;
-  background-color: #f86a90;
-  border-radius: 39px;
-}
-.sticky .navbar-nav li a:hover {
-  background-color: transparent !important;
-  color: #12199c;
-}
-.sticky .main-menu .navbar-nav li.active a {
-  color: #12199c;
-}
-.navbar-nav li a:hover,
-.navbar-nav li a:focus,
-.navbar-nav li a:active {
-  background: none;
-}
+
 .logo-title {
   font-size: 30px;
 }
@@ -374,7 +348,7 @@ header.sticky .logo-brand img {
   margin-bottom: 50px;
 }
 .caption-area {
-  padding: 40% 0;
+  padding: 35% 0;
 }
 .first-skew {
   position: relative;
@@ -392,7 +366,7 @@ header.sticky .logo-brand img {
   -webkit-backface-visibility: hidden;
 }
 .first-bg-gradient {
-  background: #ffffff;
+  background: $white;
 }
 .first-skew-deg-3 .first-skew-sub-1 {
   transform: skewY(0deg);
@@ -401,18 +375,16 @@ header.sticky .logo-brand img {
   transform: skewY(-6deg);
 }
 .caption-area .caption-heading {
-  line-height: 0px;
-  margin-bottom: 40px;
-  color: #ffffff;
+  margin-bottom: 10px;
+  color: $white;
 }
 .caption-area .caption-para {
-  font-size: 24px;
-  color: #fff;
-  margin-bottom: 45px;
-  line-height: 36px;
+  font-size: 16px;
+  color: $white;
+  margin-bottom: 75px;
 }
 .caption-area .caption-para-second {
-  color: #fff;
+  color: $white;
   margin-bottom: 40px;
   font-size: 16px;
   line-height: 24px;
@@ -432,7 +404,7 @@ header.sticky .logo-brand img {
    ========================================== */
 
 .about-section {
-  background: #ffffff;
+  background: $white;
 }
 .light-300 {
   font-size: 16px;
@@ -482,11 +454,11 @@ header.sticky .logo-brand img {
   // margin-bottom: 45px;
 }
 .change-color {
-  color: #ffffff;
+  color: $white;
 }
 .themeix-info {
   background: #3694f4 !important;
-  color: #ffffff !important;
+  color: $white !important;
 }
 .themeix-button-group .themeix-danger:before {
   content: "";
@@ -525,7 +497,7 @@ header.sticky .logo-brand img {
   height: 50%;
 }
 .themeix-button-group .themeix-danger:hover {
-  color: #ffffff !important;
+  color: $white !important;
 }
 .about-section ul.benefits,
 .about-section ol.benefits {
@@ -542,7 +514,7 @@ header.sticky .logo-brand img {
 .sticky .main-menu {
   animation: 0.2s linear 0s normal none 1 running fadeInDown;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  background: $white;
   left: 0;
   color: #303030 !important;
   margin: 0 auto;
@@ -581,7 +553,7 @@ header.sticky .logo-brand img {
   padding: 25px 0 30px;
 }
 .themeix-sub-title {
-  color: #ffffff;
+  color: $white;
   position: relative;
 }
 .themeix-sub-title::after {
@@ -591,7 +563,7 @@ header.sticky .logo-brand img {
   left: 45%;
   top: 40px;
   width: 6%;
-  background: #ffffff;
+  background: $white;
   text-align: center;
   margin: 0 auto;
 }
@@ -607,7 +579,7 @@ header.sticky .logo-brand img {
   margin-bottom: 30px;
 }
 .themeix-para-style {
-  color: #fff;
+  color: $white;
   line-height: 24px;
   font-size: 16px;
 }
@@ -757,7 +729,7 @@ header.sticky .logo-brand img {
    ========================================== */
 
 .trailer-video-overlay {
-  background: #ffffff;
+  background: $white;
 }
 #background {
   position: fixed;
@@ -787,7 +759,7 @@ header.sticky .logo-brand img {
 }
 #video .modal-header h3 {
   border: medium none;
-  color: #fff;
+  color: $white;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
@@ -799,7 +771,7 @@ header.sticky .logo-brand img {
   background-color: transparent;
   border: medium none;
   border-radius: 0;
-  color: #fff;
+  color: $white;
   font-size: 33px;
   line-height: 48px;
   margin: 0;
@@ -836,7 +808,7 @@ header.sticky .logo-brand img {
   top: 60px;
   width: 100px;
   height: 2px;
-  background: #ffffff;
+  background: $white;
   margin: 0 auto;
   transform: translateX(-53%);
 }
@@ -847,7 +819,7 @@ header.sticky .logo-brand img {
   top: 58px;
   width: 20px;
   height: 6px;
-  background: #ffffff;
+  background: $white;
   margin: 0 auto;
   transform: translateX(-53%);
 }
@@ -861,18 +833,18 @@ header.sticky .logo-brand img {
   text-align: center;
 }
 #video a {
-  color: #fff;
+  color: $white;
   display: inline-block;
 }
 #video a i {
   font-size: 100px;
 }
 #video h4 {
-  color: #fff;
+  color: $white;
   margin-bottom: 20px;
 }
 #video p {
-  color: #fff;
+  color: $white;
 }
 .vidoverlay {
   background: rgba(0, 0, 0, 0)
@@ -967,7 +939,7 @@ header.sticky .logo-brand img {
   text-align: center;
   line-height: 30px;
   margin-right: 6px;
-  color: #ffffff;
+  color: $white;
 }
 .owl-nav {
   position: absolute;
@@ -992,7 +964,7 @@ header.sticky .logo-brand img {
    ========================================== */
 
 section#pricing {
-  background-color: #fff;
+  background-color: $white;
 }
 .prices {
   display: flex;
@@ -1021,7 +993,7 @@ section#pricing {
 }
 span.price-tag {
   background-color: #12199c;
-  color: #fff;
+  color: $white;
   font-size: 14px;
   padding: 5px;
   position: absolute;
@@ -1043,13 +1015,13 @@ span.price-tag {
   color: #3d93f1;
 }
 .price-table {
-  background-color: #ffffff;
+  background-color: $white;
   padding: 20px 0;
   transition: all 0.2s linear 0s;
   color: #222222;
 }
 .appiex-active {
-  color: #ffffff;
+  color: $white;
 }
 span.dollar-rate {
   font-size: 60px;
@@ -1083,7 +1055,7 @@ ul.pricing-features > li span {
   flex: 1;
 }
 .see-pricing {
-  color: #fff;
+  color: $white;
   transition: all 0.2s linear 0s;
 }
 .single-pricing {
@@ -1103,7 +1075,7 @@ ul.pricing-features > li span {
   box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
 }
 .single-pricing-plan {
-  background-color: #fff;
+  background-color: $white;
   min-height: 825px;
 }
 .single-pricing-plan.pricing-color {
@@ -1112,7 +1084,7 @@ ul.pricing-features > li span {
 }
 .single-pricing-plan h4 {
   background-color: #288feb;
-  color: #fff;
+  color: $white;
   font-size: 30px;
   line-height: 36px;
   margin: 0;
@@ -1207,7 +1179,7 @@ ul.pricing-plan li {
   height: 50%;
 }
 .themeix-button-group .themeix-price-button-active:hover {
-  color: #ffffff !important;
+  color: $white !important;
 }
 /*=========================================
     End  themeix-price-button-active
@@ -1250,7 +1222,7 @@ ul.pricing-plan li {
   height: 50%;
 }
 .themeix-button-group .price-btn-cust:hover {
-  color: #ffffff !important;
+  color: $white !important;
 }
 /* ==========================================
            15. Get appix now
@@ -1274,7 +1246,7 @@ ul.pricing-plan li {
   background: #12199c;
   padding: 18px 25px;
   text-align: center;
-  color: #ffffff;
+  color: $white;
   line-height: 0px;
   position: relative;
   font-weight: 500;
@@ -1287,7 +1259,7 @@ ul.pricing-plan li {
   transition: all 0.4s linear 0s;
 }
 .play-store-button:hover {
-  color: #ffffff;
+  color: $white;
   -webkit-box-shadow: -1px -1px 27px 2px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: -1px -1px 27px 2px rgba(0, 0, 0, 0.2);
   box-shadow: -1px -1px 17px 8px rgba(0, 0, 0, 0.2);
@@ -1307,7 +1279,7 @@ ul.pricing-plan li {
   text-transform: uppercase;
 }
 .play-store-button:visited {
-  color: #fff;
+  color: $white;
 }
 /* ==========================================
            16. Contact us
@@ -1319,7 +1291,7 @@ ul.pricing-plan li {
   background-position: center center;
 }
 .title-color-change {
-  color: #ffffff !important;
+  color: $white !important;
 }
 .full-width {
   width: 100%;
@@ -1333,7 +1305,7 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 textarea.form-control {
-  background: #ffffff;
+  background: $white;
   border: 1px solid #e1e1e1;
   color: #222222;
   font-size: 16px;
@@ -1346,7 +1318,7 @@ textarea.form-control {
   border-radius: 0;
 }
 textarea {
-  background: #ffffff none repeat scroll 0 0;
+  background: $white none repeat scroll 0 0;
   border: 0px solid #e1e1e1;
   color: #222222;
   font-size: 14px;
@@ -1372,7 +1344,7 @@ textarea:focus {
   font-weight: 400;
 
   border-radius: 4px;
-  color: #fff;
+  color: $white;
   position: relative;
   z-index: 22;
   -webkit-transition: 0.2s;
@@ -1415,7 +1387,7 @@ textarea:focus {
   padding: 60px 0;
 }
 .themeix-footer-bottom a {
-  color: #fff;
+  color: $white;
   font-weight: 700;
 }
 .inner-section a {
@@ -1427,13 +1399,13 @@ textarea:focus {
 .footer-menu li {
   display: block;
   display: inline-block;
-  border-right: 1px solid#ffffff;
+  border-right: 1px solid$white;
 }
 .footer-menu li:last-child {
   border-right: none;
 }
 .footer-menu li a {
-  color: #ffffff;
+  color: $white;
   font-weight: 400;
   padding: 0 11px;
 }
@@ -1441,7 +1413,7 @@ textarea:focus {
   background: rgba(0, 0, 0, 0.1);
 }
 .inner-section {
-  color: #ffffff;
+  color: $white;
 }
 /* ==========================================
            18. scrollUP
@@ -1450,7 +1422,7 @@ textarea:focus {
 #scrollUp {
   background: #f86a90 none repeat scroll 0 0;
   bottom: 40px;
-  color: #ffffff;
+  color: $white;
   font-size: 20px;
   font-weight: 700;
   width: 40px;
@@ -1478,7 +1450,7 @@ textarea:focus {
 .page-header-bg {
   padding-top: 140px;
   padding-bottom: 72px;
-  color: #ffffff;
+  color: $white;
 }
 ul.page-list {
   list-style: none;
@@ -1495,7 +1467,7 @@ ul.page-list li + li::before {
   padding: 0px 8px;
 }
 ul.page-list li a {
-  color: #ffffff;
+  color: $white;
 }
 /* ==========================================
            20. Blog
@@ -1519,7 +1491,7 @@ ul.page-list li a {
   text-align: center;
   line-height: 30px;
   font-size: 30px;
-  color: #fff;
+  color: $white;
   z-index: 11;
   position: absolute;
   left: 0;
@@ -1608,7 +1580,7 @@ ul.blog-author-name li i {
 }
 .themeix-second-button .btn-read {
   background-color: #12199c;
-  color: #fff;
+  color: $white;
   border: 2px solid #12199c;
   border-radius: 4px;
   text-transform: uppercase;
@@ -1621,7 +1593,7 @@ ul.blog-author-name li i {
   float: left;
 }
 .themeix-second-button .btn-read:hover {
-  background: #ffffff;
+  background: $white;
   color: #424242;
 }
 .share-icon span {
@@ -1641,7 +1613,7 @@ ul.social-icon {
   height: 30px;
   text-align: center;
   line-height: 30px;
-  color: #fff;
+  color: $white;
   font-size: 15px;
   margin-right: 6px;
   -webkit-transition: all 0.2s;
@@ -1682,7 +1654,7 @@ a {
 }
 .social-icon a:hover {
   background: #424242;
-  color: #ffffff;
+  color: $white;
 }
 .icon-button {
   position: relative;
@@ -1788,10 +1760,10 @@ h5.author-title {
   line-height: 1.42857143;
   color: #337ab7;
   text-decoration: none;
-  background-color: #fff;
+  background-color: $white;
   border: 0px solid #ddd;
   font-weight: 400;
-  color: #fff;
+  color: $white;
   font-size: 16px;
   background: #cccccc;
   -webkit-transition: all 0.2s;
@@ -1801,18 +1773,18 @@ h5.author-title {
 }
 .pagination li a:hover {
   background: #12199c;
-  color: #ffffff;
+  color: $white;
 }
 .pagination li a.active {
   background: #12199c;
-  color: #ffffff;
+  color: $white;
 }
 /* ==========================================
            22. Blog Footer 
  ========================================== */
 
 .footer-area {
-  background: #ffffff;
+  background: $white;
 }
 .column {
   overflow: hidden;
@@ -1838,11 +1810,11 @@ h5.author-title {
   display: inline-block;
 }
 .themeix-tool i {
-  color: #ffffff;
+  color: $white;
   font-size: 20px;
 }
 .themeix-tool:hover i {
-  color: #ffffff;
+  color: $white;
   transition: color 0.3s 0.6s;
 }
 .themeix-tool:hover #colorbox,
@@ -1902,7 +1874,7 @@ h5.author-title {
   position: relative;
 }
 .newsletter input {
-  background: #ffffff;
+  background: $white;
   border: 1px solid#E4E4E4;
   width: 100%;
   padding: 0 15px;
@@ -1917,7 +1889,7 @@ h5.author-title {
   width: 43px;
   line-height: 42px;
   background: #12199c;
-  color: #fff;
+  color: $white;
   border: 0;
 }
 .mar-top {
@@ -2004,12 +1976,12 @@ ul.tagcloud li a {
 }
 ul.tagcloud li a:hover {
   background-color: #288feb;
-  color: #fff;
+  color: $white;
   border-color: #288feb;
 }
 ul.tagcloud li.widget-active a {
   background-color: #288feb;
-  color: #fff;
+  color: $white;
 }
 .custom ul li {
   border-bottom: solid 1px #eee;
@@ -2054,7 +2026,7 @@ ul.tagcloud li.widget-active a {
 }
 .john {
   float: left;
-  color: #ffffff;
+  color: $white;
   font-size: 16px;
   font-weight: 400;
 }
@@ -2071,13 +2043,13 @@ ul.author-link li {
   margin-right: 10px;
 }
 ul.author-link li a {
-  color: #ffffff;
+  color: $white;
   font-size: 15px;
 }
 .author-details p {
   margin-top: 4px;
   margin-bottom: 3px;
-  color: #fff;
+  color: $white;
 }
 /* =======================================
            25. Comment
@@ -2231,14 +2203,14 @@ textarea.form-control {
   margin-right: 12px;
   font-weight: 400;
 
-  color: #fff;
+  color: $white;
   position: relative;
   z-index: 2;
   -webkit-transition: 0.2s;
   border: 0;
 }
 .blog-cust-btn:hover {
-  color: #ffffff;
+  color: $white;
 }
 .blog-cust-btn:before {
   content: "";
@@ -2308,7 +2280,7 @@ textarea.form-control {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background: none repeat scroll 0 0 #ffffff;
+  background: none repeat scroll 0 0 $white;
 }
 .preloader-battery {
   display: block;
@@ -2887,7 +2859,7 @@ textarea.form-control {
 }
 .home-page-v-three .caption-area .dark-send-input input {
   width: 45%;
-  background: #ffffff;
+  background: $white;
   color: #949493;
   font-size: 16px;
 }
@@ -2899,7 +2871,7 @@ textarea.form-control {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   background: #12199c;
-  color: #fff;
+  color: $white;
   font-size: 22px;
 }
 /* =======================================
@@ -2911,7 +2883,7 @@ textarea.form-control {
 }
 .home-page-v-two .caption-area .dark-send-input input {
   width: 45%;
-  background: #ffffff;
+  background: $white;
   color: #949493;
   font-size: 16px;
 }
@@ -2923,7 +2895,7 @@ textarea.form-control {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   background: #12199c;
-  color: #fff;
+  color: $white;
   font-size: 22px;
 }
 /*our-service-section*/
@@ -3009,7 +2981,7 @@ textarea.form-control {
   -moz-transform: translate3d(0, 0, 0);
 }
 .slider-section::before {
-  background-color: #fff;
+  background-color: $white;
   bottom: -586px;
   content: "";
   height: 498px;
@@ -3021,7 +2993,7 @@ textarea.form-control {
 }
 .skew_appended,
 .skew_prepended {
-  background: #fff;
+  background: $white;
 }
 .skew {
   position: relative;

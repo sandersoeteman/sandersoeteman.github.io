@@ -1,8 +1,62 @@
+// axiforma
+// Kastelov - Axiforma Black: bolder
+// Kastelov - Axiforma Bold: bold
+// Kastelov - Axiforma Medium: normal
+
+// samen werken aan...: bolder 48 wit h1
+// wat is pokayoka/features/voor wie: bolder 37 blauw h2
+// inspecteren en rapporteren: bolder 30 zwart h3
+// continue kwaliteitsverbetering: normal 17 blauw h4
+
+// prijzen
+// basis professional expert: normal 36 groen
+// gratis 35 55: bold 43 wit
+
+// knoppen: normal
+// subtext: opensans
+
 @font-face {
   font-family: "Axiforma";
-  src: url("../fonts/Kastelov - Axiforma Regular.otf");
+  src: url("../fonts/Kastelov - Axiforma Medium.otf");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: "Axiforma";
-  src: url("../fonts/Kastelov - Axiforma Regular.otf");
+  src: url("../fonts/Kastelov - Axiforma Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("../fonts/Kastelov - Axiforma Black.otf");
+  font-weight: bolder;
+  font-style: normal;
+}
+// axiforma italic
+@font-face {
+  font-family: "Axiforma";
+  src: url("../fonts/Kastelov - Axiforma Medium Italic.otf");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("../fonts/Kastelov - Axiforma Bold Italic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("../fonts/Kastelov - Axiforma Black Italic.otf");
+  font-weight: bolder;
+  font-style: italic;
+}
+
+// open sans
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans.ttf");
+  font-weight: normal;
+  font-style: normal;
 }

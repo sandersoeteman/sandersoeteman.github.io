@@ -1,15 +1,16 @@
 .themeix-button-group .themeix-btn {
+  font-family: Axiforma;
   padding: 12px 20px;
   display: inline-block;
   font-size: 15px;
   line-height: 24px;
   background: $brand-tertiary;
   margin-right: 12px;
-  font-weight: 400;
+  font-weight: bold;
   color: $gray-darker;
   position: relative;
   z-index: 2;
-  transition: 0.2s;
+  transition: 0.1s;
   border: 1px solid $brand-tertiary;
 }
 .themeix-button-group .themeix-btn.price-btn-cust.inverted {
@@ -29,11 +30,7 @@
   background-color: #ffffff;
   top: 50%;
   left: 0;
-  transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  -webkit-transition: 0.2s;
+  transition: 0.1s;
   z-index: -11;
 }
 .themeix-button-group .themeix-btn:hover:before {
@@ -47,11 +44,7 @@
   background-color: #ffffff;
   bottom: 50%;
   left: 0;
-  transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  -webkit-transition: 0.2s;
+  transition: 0.1s;
   z-index: -11;
 }
 .themeix-button-group .themeix-btn:hover:after {
@@ -65,11 +58,7 @@
   background-color: $brand-secondary;
   top: 50%;
   left: 0;
-  transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  -webkit-transition: 0.2s;
+  transition: 0.1s;
   z-index: -11;
 }
 .themeix-button-group .btn-clear:hover:before {
@@ -83,11 +72,7 @@
   background-color: $brand-secondary;
   bottom: 50%;
   left: 0;
-  transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-  -webkit-transition: 0.2s;
+  transition: 0.1s;
   z-index: -11;
 }
 .themeix-button-group .btn-clear:hover:after {

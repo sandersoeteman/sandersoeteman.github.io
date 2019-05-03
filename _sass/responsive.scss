@@ -163,7 +163,7 @@
     margin-bottom: 12px;
   }
   /* about appix */
-  .themeix-section-heading-title .light-300 {
+  .section-header .light-300 {
     padding: 0 0px;
   }
   .about-appix-right-content {
@@ -195,7 +195,7 @@
   }
 
   /* exclusive feature*/
-  .themeix-section-heading-title h2 {
+  .section-header h2 {
     font-size: 30px;
   }
   .feature-content {
@@ -254,7 +254,7 @@
   span.price-tag {
     right: -110px;
   }
-  .about-section .themeix-section-heading-title {
+  .about-section .section-header {
     padding-top: 20px;
   }
   span.price-tag {
@@ -263,13 +263,13 @@
   .about-section.pt-50 {
     padding-top: 20px;
   }
-  .themeix-section-heading-title .light-300 {
+  .section-header .light-300 {
     margin-top: 0;
   }
-  .themeix-section-heading-title .themeix-title-a-b-col-change::after {
+  .section-header .themeix-title-a-b-col-change::after {
     content: none;
   }
-  .themeix-section-heading-title .themeix-title-a-b-col-change::before {
+  .section-header .themeix-title-a-b-col-change::before {
     content: none;
   }
   .play-store-button i {
@@ -282,12 +282,7 @@
   .overlay.pt-70 {
     padding-top: 20px;
   }
-  .themeix-section-heading-title .head-title::before {
-    content: none;
-  }
-  .themeix-section-heading-title .head-title::after {
-    content: none;
-  }
+
   .main-menu {
     border-bottom: medium none;
   }

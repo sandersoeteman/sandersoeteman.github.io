@@ -2,14 +2,18 @@
   <div class="container">
     <div class="row ">
       <div class="col-md-12 ">
-        <div class="themeix-section-heading-title">
+        <div class="section-header">
           <h2 class="head-title">Wat is Pokayoka</h2>
-          <p class="light-300 color-change">
+          <img
+            src="{{ site.baseurl }}/assets/images/ICON.svg"
+            alt=""
+            class="icon"
+          />
+          <p class="pokayoke">
             Poka yoke (ポカヨケ) is een Japanse term en betekent zoveel als
             foutpreventie (een poka is een onbedoelde fout en yokeru is
-            'voorkomen'). <br /><a
-              href="https://nl.wikipedia.org/wiki/Poka_yoke"
-              target="_blank"
+            'voorkomen').
+            <a href="https://nl.wikipedia.org/wiki/Poka_yoke" target="_blank"
               >wikipedia</a
             >
           </p>
@@ -22,7 +26,7 @@
           <div class="about-image">
             <div class="about-appix-left-img">
               <img
-                src="{{ site.baseurl }}/assets/images/about/vastleggen.svg"
+                src="{{ site.baseurl }}/assets/images/about/vastleggen.png"
                 alt="about"
                 class="img-responsive"
               />
@@ -38,26 +42,26 @@
                 voortgang bij. Maak mooie, overzichtelijke rapporten.
               </p>
 
-              <h3>Voordelen van Pokayoka inspecties:</h3>
+              <h4>Voordelen van Pokayoka inspecties:</h4>
               <ul class="benefits">
                 <li>
-                  <i class="fas fa-check"></i>Niets installeren, gelijk aan de
+                  {% include checkmark.html %} Niets installeren, gelijk aan de
                   slag
                 </li>
                 <li>
-                  <i class="fas fa-check"></i>Makkelijk doorverwijzen naar
+                  {% include checkmark.html %} Makkelijk doorverwijzen naar
                   collega's
                 </li>
                 <li>
-                  <i class="fas fa-check"></i>Stimuleert menselijke communicatie
-                  door <a href="/handovers">Handover werkwijze</a>
+                  {% include checkmark.html %} Stimuleert menselijke
+                  communicatie door <a href="/handovers">Handover werkwijze</a>
                 </li>
-                <li><i class="fas fa-check"></i>Algemene punten</li>
+                <li>{% include checkmark.html %} Algemene punten</li>
                 <li>
-                  <i class="fas fa-check"></i>Helder communicerende rapporten
+                  {% include checkmark.html %} Helder communicerende rapporten
                 </li>
                 <li>
-                  <i class="fas fa-check"></i>Draag een as-built dossier over
+                  {% include checkmark.html %} Draag een as-built dossier over
                   aan de opdrachtgever en eindgebruiker
                 </li>
               </ul>
@@ -78,8 +82,7 @@
                 Alles komt bij elkaar in de planning. Onze planning is
                 <i>volledig</i> en kan per aannemer, per ruimte en per element
                 door alle betrokkenen bekeken worden.
-                <br />
-                Beschikbaar per 01-08-2019
+                <h4>Beschikbaar per 01-08-2019</h4>
               </p>
               <div class="themeix-button-group">
                 {% include action_buttons.html %}
@@ -89,7 +92,7 @@
           <div class="about-image">
             <div class="about-appix-left-img">
               <img
-                src="{{ site.baseurl }}/assets/images/about/planning.svg"
+                src="{{ site.baseurl }}/assets/images/about/planning.png"
                 alt="apps"
                 class="img-responsive"
               />
@@ -101,7 +104,7 @@
           <div class="about-image">
             <div class="about-appix-left-img">
               <img
-                src="{{ site.baseurl }}/assets/images/about/foutpreventie.svg"
+                src="{{ site.baseurl }}/assets/images/about/foutpreventie.png"
                 alt="about"
                 class="img-responsive"
               />
@@ -116,8 +119,7 @@
                 Fouten maken doen we allemaal wel eens, maar hoe zorg je ervoor
                 dat het bij één keer blijft? Door gebruik te maken van het
                 Pokayoka kwaliteitsverbeteringsproces!
-                <br />
-                Beschikbaar per 01-08-2019
+                <h4>Beschikbaar per 01-08-2019</h4>
               </p>
               <div class="themeix-button-group">
                 {% include action_buttons.html %}

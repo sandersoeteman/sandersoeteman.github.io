@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   outline: none;
+  color: $gray-darker;
 }
 body {
   font-family: "OpenSans", sans-serif;
@@ -41,8 +42,8 @@ img {
   max-width: 100%;
 }
 p {
-  color: $white;
-  font-size: 16px;
+  color: $gray-darker;
+  font-size: 13px;
 }
 /*=========================
     2.Typography	
@@ -54,25 +55,25 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Axiforma", cursive;
+  font-family: AxiformaBolder, cursive;
   font-variant-ligatures: common-ligatures;
   font-weight: normal;
 }
 h1 {
-  font-weight: bolder;
   font-size: 48px;
   line-height: 60px;
+  letter-spacing: 2px;
 }
 h2 {
-  font-weight: bolder;
   font-size: 36px;
+  color: $brand-primary;
+  letter-spacing: 1px;
 }
 h3 {
-  font-weight: bolder;
   font-size: 30px;
 }
 h4 {
-  font-weight: normal;
+  font-family: Axiforma;
   font-size: 17px;
 }
 
@@ -402,48 +403,26 @@ header.sticky .logo-brand img {
 /* ==========================================
 	5. About Section
    ========================================== */
-
+img.icon {
+  height: 42px;
+}
 .about-section {
   background: $white;
 }
 .light-300 {
   font-size: 16px;
 }
-.themeix-section-heading-title {
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  margin: 0 auto;
 }
-.themeix-section-heading-title h2 {
+.section-header h2 {
   margin-top: 0;
+}
 
-  color: #3f8ee8;
-}
-.themeix-section-heading-title .head-title {
-  position: relative;
-}
-.themeix-section-heading-title .head-title:after {
-  position: absolute;
-  content: "";
-  left: 50%;
-  top: 60px;
-  width: 100px;
-  height: 2px;
-  background: #3f8ee8;
-  margin: 0 auto;
-  transform: translateX(-53%);
-}
-.themeix-section-heading-title .head-title:before {
-  position: absolute;
-  content: "";
-  left: 50%;
-  top: 58px;
-  width: 20px;
-  height: 6px;
-  background: #3f8ee8;
-  margin: 0 auto;
-  transform: translateX(-53%);
-}
-.themeix-section-heading-title .light-300 {
+.section-header .light-300 {
   padding: 0 70px;
   margin-top: 47px;
   // margin-bottom: 20px;
@@ -499,14 +478,21 @@ header.sticky .logo-brand img {
 .themeix-button-group .themeix-danger:hover {
   color: $white !important;
 }
-.about-section ul.benefits,
-.about-section ol.benefits {
-  margin-left: 12px;
+
+.about-section ul.benefits {
+  margin-bottom: 40px;
+
+  li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    svg {
+      margin-right: 8px;
+    }
+  }
 }
-.about-section ul.benefits li i,
-.about-section ol.benefits li i {
-  margin-right: 8px;
-}
+
 /* ==========================================
 6. Sticky Menu
    ========================================== */
@@ -536,11 +522,11 @@ header.sticky .logo-brand img {
 .about-pb {
   display: flex;
   flex-direction: row;
-  padding-top: 80px;
+  padding-top: 60px;
   overflow: hidden;
 }
 .about-text {
-  flex: 3;
+  flex: 4;
 }
 .about-image {
   flex: 2;
@@ -801,7 +787,7 @@ header.sticky .logo-brand img {
 12. App Video
 ========================================== */
 
-.themeix-section-heading-title .themeix-title-a-b-col-change:after {
+.section-header .themeix-title-a-b-col-change:after {
   position: absolute;
   content: "";
   left: 50%;
@@ -812,7 +798,7 @@ header.sticky .logo-brand img {
   margin: 0 auto;
   transform: translateX(-53%);
 }
-.themeix-section-heading-title .themeix-title-a-b-col-change:before {
+.section-header .themeix-title-a-b-col-change:before {
   position: absolute;
   content: "";
   left: 50%;
@@ -1097,7 +1083,7 @@ ul.pricing-features > li span {
   font-weight: 500;
 }
 ul li i.fa-check {
-  color: #12bf12;
+  color: $brand-primary;
 }
 ul li i.fa-times {
   color: #ff0000;
@@ -3032,4 +3018,13 @@ ul li.cat-item a {
   color: black;
   display: inline;
   mix-blend-mode: screen;
+}
+.pokayoke {
+  color: $brand-primary;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.checkmark {
+  height: 20px;
 }

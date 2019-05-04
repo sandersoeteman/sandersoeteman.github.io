@@ -239,6 +239,7 @@ section.pt-25 {
 .bg-gray {
   background-color: #f5f5f5;
 }
+
 /* ==========================================
 	3. Main Menu
    ========================================== */
@@ -328,6 +329,19 @@ header.sticky .logo-brand img {
   height: 30px;
   width: auto !important;
   margin-top: 9px;
+}
+
+/* ==========================================
+	Backgrounds
+   ========================================== */
+
+#about,
+#who {
+  background: $white;
+}
+#features,
+#pricing {
+  background: $gray-lightest;
 }
 
 /* ==========================================
@@ -669,14 +683,6 @@ img.icon {
   text-align: left;
 }
 
-#features,
-#pricing {
-  background: $white;
-
-  h4 span {
-    color: $brand-primary;
-  }
-}
 .feature-content .themeix-feature-title {
   display: flex;
   flex-direction: row;
@@ -725,6 +731,12 @@ img.icon {
 }
 .feature-section.highlight {
   padding-bottom: 15px;
+}
+
+#trial {
+  background-image: url(../images/bckgnd-trial.png);
+  background-size: cover;
+  background-position: center center;
 }
 
 /* ==========================================
@@ -804,28 +816,6 @@ img.icon {
 12. App Video
 ========================================== */
 
-.section-header .themeix-title-a-b-col-change:after {
-  position: absolute;
-  content: "";
-  left: 50%;
-  top: 60px;
-  width: 100px;
-  height: 2px;
-  background: $white;
-  margin: 0 auto;
-  transform: translateX(-53%);
-}
-.section-header .themeix-title-a-b-col-change:before {
-  position: absolute;
-  content: "";
-  left: 50%;
-  top: 58px;
-  width: 20px;
-  height: 6px;
-  background: $white;
-  margin: 0 auto;
-  transform: translateX(-53%);
-}
 #video {
   background-attachment: fixed;
   background-image: url("../images/trailer-video/trailer-bg.png");
@@ -981,6 +971,9 @@ img.icon {
     overflow: hidden;
     position: relative;
     align-items: center;
+    -webkit-box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
 
     img.pricing-logo {
       width: 50%;
@@ -1035,7 +1028,7 @@ img.icon {
       }
     }
     ul.pricing-features {
-      padding: 42px 10px;
+      padding: 46px 10px;
 
       li {
         display: flex;
@@ -1053,9 +1046,6 @@ img.icon {
 
     &.active-price {
       background-color: $white;
-      -webkit-box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
-      -moz-box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
-      box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
 
       .price-table {
         color: $white;

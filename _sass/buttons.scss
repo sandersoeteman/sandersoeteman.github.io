@@ -1,7 +1,7 @@
 .themeix-button-group {
   .themeix-btn {
     font-family: Axiforma;
-    padding: 12px 20px;
+    padding: 8px 20px;
     display: inline-block;
     font-size: 15px;
     line-height: 24px;
@@ -78,7 +78,7 @@
       // clear gray
       &.btn-clear-gray {
         border-color: $gray;
-        color: $gray;
+        color: $gray-darker;
 
         &:before {
           background-color: $gray;

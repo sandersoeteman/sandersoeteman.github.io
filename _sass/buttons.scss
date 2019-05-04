@@ -1,94 +1,107 @@
-.themeix-button-group {
-  .themeix-btn {
-    font-family: Axiforma;
-    padding: 8px 20px;
-    display: inline-block;
-    font-size: 15px;
-    line-height: 24px;
-    background: $brand-tertiary;
-    margin-right: 12px;
-    font-weight: bold;
-    color: $gray-darker;
-    position: relative;
-    z-index: 2;
-    transition: 0.1s;
-    border: 2px solid $brand-tertiary;
+.themeix-btn {
+  font-family: Axiforma;
+  padding: 8px 20px;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 24px;
+  background: $brand-tertiary;
+  margin-right: 12px;
+  font-weight: bold;
+  color: $gray-darker;
+  position: relative;
+  z-index: 2;
+  transition: 0.1s;
+  border: 2px solid $brand-tertiary;
 
-    &:first-letter {
-      text-transform: capitalize;
+  &:first-letter {
+    text-transform: capitalize;
+  }
+  &:before,
+  &:after {
+    content: "";
+    width: 100%;
+    height: 0;
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    transition: 0.1s;
+    z-index: -11;
+  }
+  &:before {
+    top: 50%;
+  }
+  &:after {
+    bottom: 50%;
+  }
+  &:hover {
+    text-decoration: none;
+
+    &:before {
+      height: 50%;
     }
-    &:before,
     &:after {
-      content: "";
-      width: 100%;
-      height: 0;
-      position: absolute;
-      background-color: #ffffff;
-      left: 0;
-      transition: 0.1s;
-      z-index: -11;
+      height: 50%;
+    }
+  }
+  // clear button
+  &.btn-clear {
+    background: transparent;
+    border: 2px solid $brand-secondary;
+    color: $brand-secondary;
+
+    &:after {
+      background-color: $brand-secondary;
     }
     &:before {
-      top: 50%;
-    }
-    &:after {
-      bottom: 50%;
+      background-color: $brand-secondary;
     }
     &:hover {
-      text-decoration: none;
-
-      &:before {
-        height: 50%;
-      }
-      &:after {
-        height: 50%;
-      }
+      color: #ffffff;
     }
-    // clear button
-    &.btn-clear {
-      background: transparent;
-      border: 2px solid $brand-secondary;
-      color: $brand-secondary;
 
-      &:after {
-        background-color: $brand-secondary;
-      }
+    // clear white
+    &.btn-clear-white {
+      border-color: $white;
+      color: $white;
+
       &:before {
-        background-color: $brand-secondary;
+        background-color: $white;
+      }
+      &:after {
+        background-color: $white;
       }
       &:hover {
-        color: #ffffff;
-      }
-
-      // clear white
-      &.btn-clear-white {
-        border-color: $white;
-        color: $white;
-
-        &:before {
-          background-color: $white;
-        }
-        &:after {
-          background-color: $white;
-        }
-        &:hover {
-          color: $gray-darker;
-        }
-      }
-      // clear gray
-      &.btn-clear-gray {
-        border-color: $gray;
         color: $gray-darker;
+      }
+    }
+    // clear gray
+    &.btn-clear-gray {
+      border-color: $gray;
+      color: $gray-darker;
 
-        &:before {
-          background-color: $gray;
-        }
-        &:after {
-          background-color: $gray;
-        }
-        &:hover {
-          color: $white;
-        }
+      &:before {
+        background-color: $gray;
+      }
+      &:after {
+        background-color: $gray;
+      }
+      &:hover {
+        color: $white;
+      }
+    }
+
+    &.btn-clear-blue {
+      border-color: $brand-primary;
+      color: $brand-primary;
+
+      &:before {
+        background-color: $brand-primary;
+      }
+      &:after {
+        background-color: $brand-primary;
+      }
+      &:hover {
+        color: $white;
       }
     }
   }

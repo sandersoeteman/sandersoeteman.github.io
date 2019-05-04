@@ -336,12 +336,17 @@ header.sticky .logo-brand img {
    ========================================== */
 
 #about,
-#who {
+#pricing {
   background: $white;
 }
 #features,
-#pricing {
+#who {
   background: $gray-lightest;
+}
+#trial {
+  background-image: url(../images/bckgnd-trial.png);
+  background-size: cover;
+  background-position: center center;
 }
 
 /* ==========================================
@@ -541,7 +546,7 @@ img.icon {
   overflow: hidden;
 
   .about-text {
-    margin-left: 12px;
+    margin-left: 20px;
   }
   &.reverse .about-text {
     margin-right: 12px;
@@ -731,12 +736,6 @@ img.icon {
 }
 .feature-section.highlight {
   padding-bottom: 15px;
-}
-
-#trial {
-  background-image: url(../images/bckgnd-trial.png);
-  background-size: cover;
-  background-position: center center;
 }
 
 /* ==========================================
@@ -1224,20 +1223,23 @@ img.icon {
    ========================================== */
 
 .contact-us-area {
-  background-image: url(../images/contact-image/bg.jpg);
+  background-image: url(../images/bckgnd-contact.png);
   background-size: cover;
   background-position: center center;
+
+  h2 {
+    color: $white;
+  }
+
+  .btn-clear {
+    width: 100%;
+  }
 }
 .title-color-change {
   color: $white !important;
 }
 .full-width {
   width: 100%;
-}
-.themeix-button-group button {
-  border-radius: 0 !important;
-  border: 0;
-  background: #12199c !important;
 }
 input[type="text"],
 input[type="email"],
@@ -1265,55 +1267,9 @@ textarea {
   height: 190px;
   margin-bottom: 12px;
 }
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="password"]:focus,
-textarea:focus {
-  border: 1px solid #12199c;
-}
-.themeix-button-group .themeix-submit-btn {
-  padding: 12px 30px;
-  display: inline-block;
-  font-size: 13px;
-  text-transform: uppercase;
-  line-height: 24px;
-  background: #12199c;
-  margin-right: 12px;
-  font-weight: 400;
 
-  border-radius: 4px;
-  color: $white;
-  position: relative;
-  z-index: 22;
-  -webkit-transition: 0.2s;
-  width: 100%;
-  overflow: hidden;
-  z-index: 1;
-}
-.themeix-button-group .themeix-submit-btn::after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 0;
-  left: -65px;
-  border-radius: 50%;
-  background: #424242;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-8%, -50%);
-  -moz-transform: translate(-1%, -40%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transition: width 0.4s, height 0.4s;
-  -webkit-transition: width 0.4s, height 0.4s;
-  -moz-transition: width 0.4s, height 0.4s;
-  -ms-transition: width 0.4s, height 0.4s;
-  -o-transition: width 0.4s, height 0.4s;
-  top: 70px;
-  z-index: -22;
-}
-.themeix-button-group .themeix-submit-btn:hover:after {
-  width: 700px;
-  height: 700px;
+h2.get-in-contact {
+  margin-top: 75px;
 }
 
 /* ==========================================
@@ -1559,16 +1515,14 @@ ul.social-icon {
   transition: all 0.2s;
 }
 
-a:hover {
-  text-decoration: none;
-}
 a:focus,
 a:hover {
-  color: #23527c;
+  color: $brand-primary;
   text-decoration: underline;
 }
 a:active,
 a:hover {
+  text-decoration: none;
   outline: 0;
 }
 .twitter {
@@ -2092,10 +2046,8 @@ a.comment-reply:hover {
   padding-bottom: 0;
 }
 .contact-form .input-wide {
-  border: 1px solid #eee;
-  border-radius: 0;
+  border: none;
   box-shadow: none;
-  color: #868686;
   display: block;
   font-size: 16px;
   height: 48px;
@@ -2103,6 +2055,10 @@ a.comment-reply:hover {
   padding: 10px 12px;
   transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
   width: 100%;
+
+  &::placeholder {
+    color: $gray;
+  }
 }
 .contact-form .checkbox label {
   display: flex;
@@ -2979,4 +2935,9 @@ ul li.cat-item a {
 }
 .checkmark {
   height: 20px;
+}
+.bottom-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }

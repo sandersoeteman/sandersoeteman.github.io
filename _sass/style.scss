@@ -970,9 +970,6 @@ img.icon {
     overflow: hidden;
     position: relative;
     align-items: center;
-    -webkit-box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
 
     img.pricing-logo {
       width: 50%;
@@ -1045,6 +1042,9 @@ img.icon {
 
     &.active-price {
       background-color: $white;
+      -webkit-box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
+      box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
 
       .price-table {
         color: $white;
@@ -1059,10 +1059,30 @@ img.icon {
         padding-top: 30px;
       }
     }
-    &:hover {
+    &:hover:not(.active-price) {
       -webkit-box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
       -moz-box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
       box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
+
+      .price-table {
+        color: $white;
+        background: #12199c;
+      }
+
+      .themeix-btn {
+        border-color: $brand-primary;
+        color: $brand-primary;
+
+        &:before {
+          background-color: $brand-primary;
+        }
+        &:after {
+          background-color: $brand-primary;
+        }
+        &:hover {
+          color: $white;
+        }
+      }
     }
   }
   .margin-container {

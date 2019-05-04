@@ -671,10 +671,17 @@ img.icon {
 
 #features,
 #pricing {
-  background: $gray-lightest;
+  background: $white;
 
   h4 span {
     color: $brand-primary;
+  }
+
+  .margin-container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
   }
 }
 .feature-content .themeix-feature-title {

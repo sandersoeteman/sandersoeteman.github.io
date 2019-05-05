@@ -33,33 +33,6 @@
   });
 
   /* ==========================================
-           1. owl carousel
-========================================== */
-
-  // $('.owl-carousel').owlCarousel({
-  //     loop:true,
-  //     autoplay:false,
-  //     smartSpeed:1000,
-  //     items:1,
-  //     navText:["<i class=' fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
-  //     responsiveClass:true,
-  //     responsive:{
-  //         0:{
-  //             items:1
-
-  //         },
-  //         600:{
-  //             items:1
-
-  //         },
-  //         1000:{
-  //             items:1
-
-  //         }
-  //     }
-  // });
-
-  /* ==========================================
            2. sticky menu
    ========================================== */
 
@@ -77,118 +50,12 @@
   sticky_menu();
 
   /* ==========================================
-           4. service slider
-========================================== */
-  // $(".service-slider-section").owlCarousel({
-  //   loop: true,
-  //   autoplay: true,
-  //   smartSpeed: 2000,
-  //   responsiveClass: true,
-  //   margin: 20,
-  //   responsive: {
-  //     0: {
-  //       items: 1
-  //     },
-  //     600: {
-  //       items: 1
-  //     },
-  //     1000: {
-  //       items: 3
-  //     }
-  //   }
-  // });
-
-  /* ==========================================
-           5. testimonial-slider
-========================================== */
-  // $(".testimonial-slider-wrapper").owlCarousel({
-  //   loop: true,
-  //   autoplay: true,
-  //   nav: true,
-  //   smartSpeed: 2000,
-  //   navText: [
-  //     '<i class="fa fa-angle-left"></i>',
-  //     '<i class="fa fa-angle-right"></i>'
-  //   ],
-  //   responsiveClass: true,
-  //   responsive: {
-  //     0: {
-  //       items: 1
-  //     },
-  //     600: {
-  //       items: 1
-  //     },
-  //     1000: {
-  //       items: 1
-  //     }
-  //   }
-  // });
-  /* ==========================================
-           6. exclusive features
-========================================== */
-  // $("#features").zenith({
-  //   slideSpeed: 600,
-  //   autoplaySpeed: 2000,
-  //   animation: "RotateDown",
-  //   autoplay: true
-  // });
-
-  /* ==========================================
            7. Preloader
 ========================================== */
 
   $(window).load(function() {
     $(".preloader").fadeOut(1000);
   });
-
-  /* ==========================================
-           8.  App Screenshots
-========================================== */
-
-  // function waterwheelCarousel() {
-  //   $(".apps-carousel").waterwheelCarousel({
-  //     autoPlay: 4000,
-  //     speed: 200,
-  //     animationEasing: "linear",
-  //     preloadImages: true,
-  //     sizeMultiplier: 0.6
-  //   });
-  // }
-  // waterwheelCarousel();
-
-  // function mobiCarousel() {
-  //   $(".mobi-carousel").waterwheelCarousel({
-  //     autoPlay: 4000,
-  //     speed: 200,
-  //     sidePadding: 60,
-  //     topPadding: 10,
-  //     animationEasing: "linear",
-  //     preloadImages: true,
-  //     sizeMultiplier: 0.6,
-  //     orientation: "vertical"
-  //   });
-  // }
-
-  // var windows = $(window);
-  // var winWidth = windows.width();
-
-  // if (winWidth < 700) {
-  //   $(".mobi-carousel")
-  //     .removeClass("apps-carousel")
-  //     .addClass("sm-carousel");
-
-  //   mobiCarousel();
-  // }
-
-  /* ==========================================
-           9. background video
-========================================== */
-
-  // if ($("#video").length > 0) {
-  //   $(".autoplay").magnificPopup({
-  //     type: "iframe"
-  //   });
-  // }
 
   /* ==========================================
            10. Smooth Scroll

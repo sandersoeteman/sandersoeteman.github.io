@@ -264,6 +264,11 @@ header {
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
+
+  svg.hamburger {
+    width: 24px;
+    height: 24px;
+  }
 }
 .header-container {
   display: flex;

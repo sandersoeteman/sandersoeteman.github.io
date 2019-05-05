@@ -1,0 +1,64 @@
+.who-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .role {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+
+    &.button {
+      margin-top: 12px;
+    }
+
+    .radio-wrapper {
+      width: 25px;
+      display: flex;
+      flex-direction: row;
+
+      input[type="radio"] {
+        margin: 0 12px 0 0;
+        padding: 0;
+      }
+    }
+    input[type="text"] {
+      margin: 0;
+      flex: 1;
+      height: 36px;
+
+      &::placeholder {
+        color: $gray;
+        font-size: 16px;
+      }
+    }
+    .role-label {
+      display: flex;
+      flex-direction: row;
+      width: 200px;
+      align-items: center;
+
+      label {
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    .bar-wrapper {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .bar {
+        background-color: $brand-secondary;
+        height: 8px;
+      }
+    }
+    .new-role {
+      flex: 1;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}

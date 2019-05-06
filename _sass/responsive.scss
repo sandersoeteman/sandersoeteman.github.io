@@ -16,11 +16,6 @@
   .change-color {
     color: #fff;
   }
-  .first-skew-sub-1,
-  .first-skew-sub-2,
-  .first-skew-bg {
-    transform-origin: 581% 50%;
-  }
   .navbar--header {
     justify-content: start;
   }
@@ -35,11 +30,6 @@
   .caption-area {
     text-align: center;
     margin-top: 52px;
-  }
-  .first-skew-sub-1,
-  .first-skew-sub-2,
-  .first-skew-bg {
-    transform-origin: 977% 50%;
   }
   /* menu design */
   .navbar-nav li a {
@@ -140,9 +130,6 @@
   }
 
   /* slider area */
-  .first-skew-sub-1 {
-    display: none;
-  }
   .caption-area {
     padding: 87px 0;
     text-align: center;

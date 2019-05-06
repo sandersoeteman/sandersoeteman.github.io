@@ -2,37 +2,6 @@
   "use strict";
 
   /* ==========================================
-           1. Skew BG
-========================================== */
-
-  function skew_position() {
-    var window_width = jQuery(window).width();
-    var skew_square_height = window_width / 18.5;
-    jQuery(".skew_appended")
-      .height(skew_square_height + "px")
-      .css("bottom", "-" + skew_square_height / 2 + "px")
-      .css("-webkit-backface-visibility", "hidden !important");
-    jQuery(".skew_prepended")
-      .height(skew_square_height + "px")
-      .css("top", "-" + (skew_square_height / 2 + 1) + "px")
-      .css("-webkit-backface-visibility", "hidden !important");
-
-    jQuery(".skew")
-      .not(".module_google_map")
-      .append('<div class="skew_appended"></div>');
-    jQuery(".skew, .module_google_map .skew, .pre_footer.skew")
-      .not(".remove-top-skew")
-      .append('<div class="skew_prepended"></div>');
-  }
-
-  skew_position();
-
-  var windos = $(window);
-  windos.resize(function() {
-    skew_position();
-  });
-
-  /* ==========================================
            2. sticky menu
    ========================================== */
 

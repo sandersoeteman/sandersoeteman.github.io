@@ -376,29 +376,8 @@ header.sticky .logo-brand img {
 .caption-area {
   padding: 35% 0;
 }
-.first-skew {
-  position: relative;
-}
-.first-skew-sub-1,
-.first-skew-sub-2,
-.first-skew-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  transform-origin: 446% 3%;
-  outline: 1px solid transparent;
-  -webkit-backface-visibility: hidden;
-}
 .first-bg-gradient {
   background: $white;
-}
-.first-skew-deg-3 .first-skew-sub-1 {
-  transform: skewY(0deg);
-}
-.first-skew-deg-3 .first-skew-sub-2 {
-  transform: skewY(-6deg);
 }
 .caption-area .caption-heading {
   margin-bottom: 10px;
@@ -601,44 +580,6 @@ img.icon {
   color: $white;
   line-height: 24px;
   font-size: 16px;
-}
-/* ==========================================
-9. Skew Design
-   ========================================== */
-
-.skew {
-  position: relative;
-}
-.skew_sub-1,
-.skew_sub-2 {
-  overflow: hidden;
-}
-.skew_sub-1,
-.skew_sub-2,
-.skew_bg {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  transform-origin: 150% 50%;
-  outline: 1px solid transparent;
-  -webkit-backface-visibility: hidden;
-}
-
-.skew__deg-2 .skew_bg {
-  transform: skewY(-6deg);
-  margin-bottom: -11.86869%;
-}
-.skew__deg-3 {
-  margin-top: -11.86869%;
-  padding-top: 11.86869%;
-}
-.skew__deg-3 .skew_sub-1 {
-  transform: skewY(0deg);
-}
-.skew__deg-3 .skew_sub-2 {
-  transform: skewY(-6deg);
 }
 /* ==========================================
 10. Exclusive Feature Section
@@ -2959,28 +2900,6 @@ textarea.form-control {
   transform-origin: 0 0 0;
   width: 120%;
 }
-.skew_appended,
-.skew_prepended {
-  background: $white;
-}
-.skew {
-  position: relative;
-}
-.skew_appended,
-.skew_prepended {
-  width: 100%;
-  position: absolute;
-  left: 0;
-  overflow: hidden;
-  -webkit-transform: skewY(-3.1deg);
-  -ms-transform: skewY(-3.1deg);
-  transform: skewY(-3.1deg);
-  -webkit-backface-visibility: hidden !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  z-index: 1;
-}
-
 ul li.cat-item a {
   text-transform: capitalize;
 }

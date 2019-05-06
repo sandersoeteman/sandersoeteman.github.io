@@ -245,7 +245,7 @@ section.pt-25 {
    ========================================== */
 
 header {
-  position: absolute;
+  position: relative;
   width: 100%;
   z-index: 22;
   left: 0;
@@ -374,7 +374,7 @@ header.sticky .logo-brand img {
   margin-bottom: 50px;
 }
 .caption-area {
-  padding: 35% 0;
+  padding: 60px 0;
 }
 .first-bg-gradient {
   background: $white;

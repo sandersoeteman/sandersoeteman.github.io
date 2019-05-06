@@ -29,7 +29,6 @@
   /* slider design */
   .caption-area {
     text-align: center;
-    margin-top: 52px;
   }
   /* menu design */
   .navbar-nav li a {
@@ -125,13 +124,31 @@
     width: 95%;
   }
 
-  .main-menu .navbar-nav li a:hover {
-    background-color: transparent;
+  .main-menu ul.navbar-nav {
+    flex-direction: column;
+
+    li {
+      margin: 6px 12px;
+    }
+  }
+
+  .section-ptb {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .company-logos {
+    padding-top: 30px;
+  }
+  .contact-form {
+    padding-bottom: 30px;
+  }
+  .themeix-footer-bottom {
+    padding: 30px 0;
   }
 
   /* slider area */
   .caption-area {
-    padding: 87px 0;
+    padding: 30px 0;
     text-align: center;
   }
   .caption-area .caption-heading {
@@ -226,13 +243,6 @@
     padding: 0px 0px !important;
   }
 
-  .main-menu ul.navbar-nav li a:hover {
-    color: #f86a90;
-  }
-
-  .sticky .main-menu ul li a:hover {
-    color: #f86a90 !important;
-  }
   .custom-toggle i {
     color: #424242;
   }
@@ -269,9 +279,9 @@
   .display-middle {
     padding: 0;
   }
-  .themeix-button-group {
-    display: inline-block;
-  }
+  // .themeix-button-group {
+  //   display: inline-block;
+  // }
   .share-icon {
     float: right;
     padding-top: 15px;

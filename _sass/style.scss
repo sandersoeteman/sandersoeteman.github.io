@@ -376,7 +376,7 @@ header.sticky .logo-brand img {
   margin-bottom: 50px;
 }
 .caption-area {
-  padding: 60px 0;
+  padding: 90px 0;
 }
 .first-bg-gradient {
   background: $white;
@@ -402,9 +402,6 @@ header.sticky .logo-brand img {
 }
 .border-rad {
   border-radius: 4px;
-}
-.overlay {
-  background: #44d8ceaa;
 }
 /* ==========================================
 	5. About Section
@@ -1037,7 +1034,7 @@ img.icon {
     flex: 1;
     display: flex;
     flex-direction: row;
-    margin: 12px 0 12px 12px;
+    margin: 12px 0;
   }
   > div:not(:first-child) {
     margin-left: 20px;
@@ -1294,12 +1291,8 @@ h2.get-in-contact {
       height: 200px;
       padding: 10px;
       margin-top: 12px;
+      margin-right: 12px;
       background-color: $gray;
-      // border: 2px solid $brand-primary;
-
-      &:not(:first-child) {
-        margin-left: 12px;
-      }
 
       .logo {
         width: 100%;

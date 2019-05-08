@@ -348,7 +348,7 @@ header.sticky .logo-brand img {
 }
 #features,
 #who {
-  background: $gray-lightest;
+  background: $gray-lighter;
 }
 #trial {
   background-image: url(../images/bckgnd-trial.png);
@@ -361,7 +361,7 @@ header.sticky .logo-brand img {
    ========================================== */
 
 .themeix-bg {
-  background-image: url("../images/slide-image/samenwerken.png");
+  background-image: url("../images/slide-image/bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -806,7 +806,7 @@ img.icon {
    ========================================== */
 
 .our-testimonials-section {
-  background: $gray-lightest;
+  background: $gray-lighter;
 }
 .single-testimonials-section {
   position: relative;
@@ -910,7 +910,7 @@ img.icon {
 
   .single-pricing {
     flex: 1;
-    background-color: $gray-lightest;
+    background-color: $gray-lighter;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
@@ -1294,8 +1294,8 @@ h2.get-in-contact {
       height: 200px;
       padding: 10px;
       margin-top: 12px;
-      background-color: $white;
-      border: 2px solid $brand-primary;
+      background-color: $gray;
+      // border: 2px solid $brand-primary;
 
       &:not(:first-child) {
         margin-left: 12px;
@@ -1318,10 +1318,13 @@ h2.get-in-contact {
           background-image: url("../images/logos/swa.png");
         }
         &.vanderplas {
-          background-image: url("../images/logos/vanderplas.jpg");
+          background-image: url("../images/logos/vanderplas.png");
         }
         &.uca {
-          background-image: url("../images/logos/uca.jpg");
+          background-image: url("../images/logos/uca.png");
+        }
+        &.team4 {
+          background-image: url("../images/logos/team4.svg");
         }
       }
     }

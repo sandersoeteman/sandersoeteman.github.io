@@ -258,7 +258,7 @@ header {
   -webkit-transition: all 00.2s;
   transition: all 00.2s;
   border-bottom: 1px solid rgba(245, 245, 245, 0.1);
-  padding: 20px 0px;
+  padding: 16px 0px;
   background: $white;
 }
 .navbar--header {
@@ -512,7 +512,7 @@ img.icon {
   top: 0;
   transition: all 200ms linear 0s;
   z-index: 10;
-  padding: 0px 0;
+  padding: 6px 0;
   border: 0;
 }
 .sticky .main-menu ul li a {

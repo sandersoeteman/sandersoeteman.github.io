@@ -47,6 +47,16 @@
     border-color: $white;
   }
 
+  &.btn-blue {
+    background: $brand-primary;
+    color: $white;
+    border-color: $brand-primary;
+
+    &:hover {
+      color: $brand-primary;
+    }
+  }
+
   // clear button
   &.btn-clear {
     background: transparent;

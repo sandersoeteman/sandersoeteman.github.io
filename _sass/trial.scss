@@ -12,8 +12,12 @@
     flex-direction: column;
 
     p {
-      font-family: AxiFormaBold;
+      font-family: AxiFormaBolder;
       margin: 20px 0 0;
+
+      span.tijdelijk {
+        font-family: OpenSans;
+      }
     }
     form {
       position: relative;
@@ -38,17 +42,22 @@
         border: 2px solid $gray;
       }
       .filepond--root {
-        overflow: hidden;
         margin-bottom: 15px;
 
         .filepond--panel-root {
+          border: 2px solid $gray;
           border-radius: 0;
           background-color: $gray-lighter;
         }
         label {
           font-family: OpenSans, sans-serif;
           font-size: 16px;
-          color: $gray-darker;
+          color: $gray;
+
+          span {
+            color: $gray-darker;
+            text-decoration-color: $gray-darker;
+          }
         }
       }
       .themeix-btn {

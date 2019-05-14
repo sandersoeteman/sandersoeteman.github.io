@@ -67,10 +67,7 @@
   // we could have also put these on the file input element itself
   FilePond.create(document.querySelector('input[type="file"]'), {
     labelIdle: `Sleep PDF plattegronden op dit vlak, of <span class="filepond--label-action">Browse</span>`,
-    server: "https://app.pokayoka.com/new",
-    stylePanelLayout: "compact",
-    styleLoadIndicatorPosition: "center bottom",
-    styleButtonRemoveItemPosition: "center bottom"
+    server: "https://app.pokayoka.com/new"
   });
 
   $(".btn-trial").click(e => {

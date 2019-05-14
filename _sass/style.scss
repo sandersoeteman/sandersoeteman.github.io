@@ -85,6 +85,10 @@ b {
   font-family: AxiformaBold;
   font-weight: normal;
 }
+label {
+  font-family: OpenSans, sans-serif;
+  font-weight: normal;
+}
 /* ==============================================
     2.1. Browser Upgrade Prompt
    ============================================== */
@@ -347,7 +351,7 @@ header.sticky .logo-brand img {
 }
 #features,
 #who {
-  background: $gray-lighter;
+  background-image: url(../images/bckgnd-trial.png);
 }
 #trial {
   background-image: url(../images/bckgnd-trial.png);

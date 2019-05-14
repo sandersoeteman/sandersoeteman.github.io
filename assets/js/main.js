@@ -51,6 +51,28 @@
   smoothScrollWithoutHash('a[href*="#"]');
 
   /* ==========================================
+           TRIAL
+========================================== */
+
+  FilePond.registerPlugin(
+    // encodes the file as base64 data
+    FilePondPluginFileEncode,
+
+    // validates files based on input type
+    FilePondPluginFileValidateType
+  );
+
+  // Select the file input and use create() to turn it into a pond
+  // in this example we pass properties along with the create method
+  // we could have also put these on the file input element itself
+  FilePond.create(document.querySelector('input[type="file"]'), {
+    labelIdle: `Drag & Drop your picture or <span class="filepond--label-action">Browse</span>`,
+    server: "https://app.pokayoka.com/new",
+    stylePanelLayout: "compact",
+    styleLoadIndicatorPosition: "center bottom",
+    styleButtonRemoveItemPosition: "center bottom"
+  });
+  /* ==========================================
            11. Footer
 ========================================== */
   $("span.copyright-year").html(new Date().getFullYear());

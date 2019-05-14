@@ -10,25 +10,34 @@
             alt=""
             class="icon"
           />
-          <p class="light-300">
-            We zijn op dit moment druk bezig met het testen van ons product in
-            de praktijk. Zodra wij tevreden zijn over de kwaliteit die we kunnen
-            leveren, kunt u hier online een account afsluiten en direct aan de
-            slag gaan!
-          </p>
-          <p class="light-300">
-            Wilt u op de hoogte gehouden worden? Vul dan hieronder het
-            <a href="#contact">contactformulier</a> in.
-          </p>
-          <h2 class="get-in-contact">
-            <a href="#contact">
-              <img
-                src="{{ site.baseurl }}/assets/images/MAIL.svg"
-                alt=""
-                class="icon"
+          <form
+            action="https://app.pokayoka.com"
+            method="POST"
+            enctype="multipart/form-data"
+          >
+            <div>
+              <input
+                type="text"
+                name="e-mail"
+                id="e-mail"
+                placeholder="E-mail adres"
+                required
               />
-            </a>
-          </h2>
+            </div>
+            <div>
+              <input
+                type="file"
+                name="plans"
+                id="plans"
+                accept="application/pdf"
+                multiple
+                required
+              />
+            </div>
+            <div>
+              <button>Send the file</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>

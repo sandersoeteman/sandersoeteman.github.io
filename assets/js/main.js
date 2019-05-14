@@ -73,10 +73,11 @@
     styleButtonRemoveItemPosition: "center bottom"
   });
 
-  window.focusEmail = function() {
-    console.log("focus");
+  $(".btn-trial").click(e => {
     $("input#email").focus();
-  };
+    e.preventDefault();
+    return false;
+  });
   /* ==========================================
            11. Footer
 ========================================== */

@@ -4,40 +4,49 @@
     <div class="row">
       <div class="col-md-12">
         <div class="section-header">
-          <h2 class="head-title">Probeer Pokayoka nu</h2>
+          <h2 class="head-title">Probeer Pokayoka nu!</h2>
           <img
             src="{{ site.baseurl }}/assets/images/ICON.svg"
             alt=""
             class="icon"
           />
-          <form
-            action="https://app.pokayoka.com"
-            method="POST"
-            enctype="multipart/form-data"
-          >
-            <div>
-              <input
-                type="text"
-                name="e-mail"
-                id="e-mail"
-                placeholder="E-mail adres"
-                required
-              />
+          <div class="trial-wrapper">
+            <div class="form-wrapper">
+              <p>
+                Maak gebruik van onze introductie-aanbieding en claim uw
+                levenslang gratis account!
+              </p>
+              <form
+                action="https://app.pokayoka.com"
+                method="POST"
+                enctype="multipart/form-data"
+              >
+                <div>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="E-mail adres"
+                    required
+                  />
+                </div>
+                <div>
+                  <input
+                    type="file"
+                    name="plans"
+                    id="plans"
+                    accept="application/pdf"
+                    multiple
+                    required
+                  />
+                </div>
+                <button class="themeix-btn btn-clear btn-clear-blue">
+                  Gratis aan de slag!
+                </button>
+              </form>
             </div>
-            <div>
-              <input
-                type="file"
-                name="plans"
-                id="plans"
-                accept="application/pdf"
-                multiple
-                required
-              />
-            </div>
-            <div>
-              <button>Send the file</button>
-            </div>
-          </form>
+            <div class="trial-image"></div>
+          </div>
         </div>
       </div>
     </div>

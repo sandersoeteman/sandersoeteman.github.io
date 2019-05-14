@@ -1,7 +1,114 @@
-form {
+.trial-wrapper {
   display: flex;
-
-  flex-direction: column;
-  padding: 60px;
+  flex-direction: row;
+  width: 100%;
+  margin: 60px 30px;
+  padding: 10px;
   background-color: rgba($brand-secondary, 0.15);
+
+  .form-wrapper {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      font-family: AxiFormaBold;
+      margin: 20px 0 0;
+    }
+    form {
+      position: relative;
+      padding: 20px 40px;
+      display: flex;
+      flex-direction: column;
+
+      &::before {
+        // -webkit-transform: rotate(75deg);
+        transform: rotate(55deg) scale(-1, 1);
+        background: url(../images/arrow.svg) bottom left/100% no-repeat;
+        content: "";
+        position: absolute;
+        display: block;
+        width: 2rem;
+        height: 3.5rem;
+        top: -10px;
+        right: 10px;
+      }
+      input[type="email"] {
+        text-align: center;
+        border: 2px solid $gray;
+      }
+      .filepond--root {
+        overflow: hidden;
+        margin-bottom: 15px;
+
+        .filepond--panel-root {
+          border-radius: 0;
+          background-color: $gray-lighter;
+        }
+        label {
+          font-family: OpenSans, sans-serif;
+          font-size: 16px;
+          color: $gray-darker;
+        }
+      }
+      .themeix-btn {
+        margin: 0;
+      }
+    }
+  }
+
+  .trial-image {
+    flex: 1;
+    background-image: url(../images/about/handover-transparent.png);
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+  }
+}
+.company-logos {
+  .section-header h3 {
+    color: $brand-primary;
+    font-family: AxiForma;
+  }
+  .logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .logo-wrapper {
+      width: 200px;
+      height: 100px;
+      padding: 10px;
+      margin-top: 12px;
+      margin-right: 12px;
+
+      .logo {
+        width: 100%;
+        height: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        &.bgdd {
+          background-image: url("../images/logos/bgdd.png");
+        }
+        &.engie {
+          background-image: url("../images/logos/engie.png");
+        }
+        &.swa {
+          background-image: url("../images/logos/swa.png");
+        }
+        &.vanderplas {
+          background-image: url("../images/logos/vanderplas.png");
+        }
+        &.uca {
+          background-image: url("../images/logos/uca.png");
+        }
+        &.team4 {
+          background-image: url("../images/logos/team4.svg");
+        }
+      }
+    }
+  }
 }

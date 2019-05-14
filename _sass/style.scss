@@ -9,7 +9,7 @@
   color: $gray-darker;
 }
 body {
-  font-family: "OpenSans", sans-serif;
+  font-family: OpenSans, sans-serif;
   line-height: 25px;
   font-size: 16px;
 }
@@ -964,7 +964,7 @@ img.icon {
         }
       }
       sub {
-        font-family: OpenSans;
+        font-family: OpenSans, sans-serif;
         color: $white;
         font-size: 14px;
       }
@@ -1274,54 +1274,7 @@ h2.get-in-contact {
 .inner-section {
   color: $white;
 }
-.company-logos {
-  padding-top: 60px;
 
-  .section-header h3 {
-    color: $brand-secondary;
-  }
-  .logos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-    .logo-wrapper {
-      width: 200px;
-      height: 100px;
-      padding: 10px;
-      margin-top: 12px;
-      margin-right: 12px;
-
-      .logo {
-        width: 100%;
-        height: 100%;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: contain;
-
-        &.bgdd {
-          background-image: url("../images/logos/bgdd.png");
-        }
-        &.engie {
-          background-image: url("../images/logos/engie.png");
-        }
-        &.swa {
-          background-image: url("../images/logos/swa.png");
-        }
-        &.vanderplas {
-          background-image: url("../images/logos/vanderplas.png");
-        }
-        &.uca {
-          background-image: url("../images/logos/uca.png");
-        }
-        &.team4 {
-          background-image: url("../images/logos/team4.svg");
-        }
-      }
-    }
-  }
-}
 /* ==========================================
            18. scrollUP
    ========================================== */

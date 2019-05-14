@@ -332,6 +332,13 @@
   }
   .prices {
     flex-direction: column;
+
+    > div:not(:first-child) {
+      margin-left: 0;
+    }
+    .single-pricing {
+      margin: 50px 20px 0 0;
+    }
   }
   .single-pricing {
     margin: 50px 20px 0;
@@ -353,5 +360,13 @@
     display: flex;
     align-items: start;
     width: 100%;
+  }
+  .trial-wrapper {
+    form {
+      margin-right: 0;
+    }
+    .trial-image {
+      display: none;
+    }
   }
 }

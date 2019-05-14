@@ -66,12 +66,17 @@
   // in this example we pass properties along with the create method
   // we could have also put these on the file input element itself
   FilePond.create(document.querySelector('input[type="file"]'), {
-    labelIdle: `Drag & Drop your picture or <span class="filepond--label-action">Browse</span>`,
+    labelIdle: `Sleep PDF plattegronden op dit vlak, of <span class="filepond--label-action">Browse</span>`,
     server: "https://app.pokayoka.com/new",
     stylePanelLayout: "compact",
     styleLoadIndicatorPosition: "center bottom",
     styleButtonRemoveItemPosition: "center bottom"
   });
+
+  window.focusEmail = function() {
+    console.log("focus");
+    $("input#email").focus();
+  };
   /* ==========================================
            11. Footer
 ========================================== */

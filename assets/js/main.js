@@ -53,7 +53,7 @@
   var newRoleField = $("#add-new-role"),
     btnAddRole = $(".btn-add-role");
   btnAddRole.click(e => {
-    var newRole = newRoleField.val();
+    var newRole = (newRoleField.val() || "").toLowerCase();
     if (newRole) {
       btnAddRole.prop("disabled", true);
       $.ajax({

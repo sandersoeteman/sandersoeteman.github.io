@@ -19,64 +19,63 @@
         </div>
         <div class="row">
           <div class="col-md-6 col-md-push-3">
-            <div class="contact-form">
-              <form
-                action="{{ site.formspree_account }}"
-                method="post"
-                class="contact-form"
-              >
-                <div class="form-group">
-                  <input
-                    class="form-control input-wide"
-                    type="text"
-                    id="name"
-                    name="name"
-                    placeholder="Uw naam"
-                    required
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    class="form-control input-wide"
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Uw e-mail"
-                    required
-                  />
-                </div>
-                <div class="form-group">
-                  <textarea
-                    rows="5"
-                    class="form-control input-wide"
-                    name="comment"
-                    name="message"
-                    placeholder="En eventueel een opmerking of een vraag"
-                  ></textarea>
-                </div>
-                <div class="form-group">
-                  <div class="checkbox">
-                    <label>
-                      <input type="checkbox" name="keep-me-informed" />
-                      <span>Hou me op de hoogte van nieuwe ontwikkelingen</span>
-                    </label>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="themeix-button-group">
+            <form class="contact-form">
+              <div class="form-group">
+                <input
+                  class="form-control input-wide"
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Uw naam"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  class="form-control input-wide"
+                  type="email"
+                  id="contact-email"
+                  name="email"
+                  placeholder="Uw e-mail"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  rows="5"
+                  class="form-control input-wide"
+                  id="comment"
+                  name="comment"
+                  name="message"
+                  placeholder="En eventueel een opmerking of een vraag"
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <div class="checkbox">
+                  <label>
                     <input
-                      type="hidden"
-                      name="_next"
-                      value="https://ssured.github.com/bedankt.html"
+                      type="checkbox"
+                      id="keep-me-informed"
+                      name="keep-me-informed"
                     />
-                    <input type="hidden" name="_language" value="nl" />
-                    <button
-                      type="submit"
-                      class="themeix-btn btn-clear btn-clear-blue"
-                    >
-                      Neem contact met mij op
-                    </button>
-                  </div>
+                    <span>Hou me op de hoogte van nieuwe ontwikkelingen</span>
+                  </label>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="themeix-button-group">
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="https://ssured.github.com/bedankt.html"
+                  />
+                  <input type="hidden" name="_language" value="nl" />
+                  <button
+                  type="submit"
+                    class="themeix-btn btn-clear btn-clear-blue btn-contact"
+                  >
+                    Neem contact met mij op
+                  </button>
                 </div>
               </form>
             </div>

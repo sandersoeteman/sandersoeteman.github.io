@@ -19,11 +19,28 @@
   sticky_menu();
 
   /* ==========================================
-           7. Preloader
+           7. Who
 ========================================== */
-
-  $(window).load(function() {
-    $(".preloader").fadeOut(1000);
+  var newRoleField = $("#new-role");
+  $(".btn-add-role").click(e => {
+    $.ajax({
+      url: "https://formspree.io/mrygaqex",
+      method: "POST",
+      data: {
+        newRole: newRoleField.val()
+      },
+      dataType: "json"
+    })
+      .done(() => {
+        newRoleField.val("");
+      })
+      .fail(() => {
+        alert(
+          "Er is iets mis gegaan bij het versturen van uw rol. Mijn excuses daarvoor! U kunt een mailtje sturen naar contact@pokayoka.com"
+        );
+      });
+    e.preventDefault();
+    return false;
   });
 
   /* ==========================================
@@ -53,5 +70,41 @@
   /* ==========================================
            11. Footer
 ========================================== */
+  var nameField = $("#name"),
+    emailField = $("#contact-email"),
+    commentField = $("#comment"),
+    informedField = $("#keep-me-informed");
+  $(".btn-contact").click(e => {
+    if (nameField.val() && emailField.val()) {
+      $.ajax({
+        url: "https://formspree.io/mrygaqex",
+        method: "POST",
+        data: {
+          contactName: nameField.val(),
+          email: emailField.val(),
+          comment: commentField.val(),
+          keepMeInformed: informedField.prop("checked")
+        },
+        dataType: "json"
+      })
+        .done(() => {
+          nameField.val("");
+          emailField.val("");
+          commentField.val("");
+          informedField.prop("checked", false);
+          alert(
+            "Uw vraag is verzonden en wordt door ons in behandeling genomen!"
+          );
+        })
+        .fail(() => {
+          alert(
+            "Er is iets mis gegaan bij het versturen van uw vraag. Mijn excuses daarvoor! U kunt een mailtje sturen naar contact@pokayoka.com"
+          );
+        });
+      e.preventDefault();
+      return false;
+    }
+  });
+
   $("span.copyright-year").html(new Date().getFullYear());
 })(jQuery);

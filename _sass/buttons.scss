@@ -89,7 +89,8 @@
       }
     }
     // clear gray
-    &.btn-clear-gray {
+    &.btn-clear-gray,
+    &:disabled {
       border-color: $gray;
       color: $gray;
 

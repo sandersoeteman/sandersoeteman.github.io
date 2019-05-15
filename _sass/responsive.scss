@@ -345,13 +345,34 @@
   }
   .header-container {
     flex-direction: column;
+
+    .left {
+      width: 100%;
+    }
+    .right {
+      display: flex;
+      align-items: start;
+      width: 100%;
+    }
   }
-  .header-container .left {
-    width: 100%;
-  }
-  .header-container .right {
-    display: flex;
-    align-items: start;
-    width: 100%;
+
+  #who {
+    .who-wrapper {
+      .role {
+        max-width: initial;
+
+        &.add-new-role {
+          min-width: 300px;
+
+          form {
+            flex-direction: column;
+
+            #add-new-role {
+              margin: 12px 0;
+            }
+          }
+        }
+      }
+    }
   }
 }

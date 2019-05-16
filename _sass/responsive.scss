@@ -195,12 +195,21 @@
     overflow: hidden;
     flex-direction: column;
     align-items: center;
-  }
-  .about-pb.reverse {
-    flex-direction: column-reverse;
-  }
-  .about-image {
-    width: 50%;
+
+    .about-image {
+      width: 50%;
+      max-width: 250px;
+    }
+    .about-text {
+      margin-left: 0;
+    }
+    &.reverse {
+      flex-direction: column-reverse;
+
+      .about-text {
+        margin-right: 0;
+      }
+    }
   }
 
   /* exclusive feature*/

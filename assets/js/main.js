@@ -26,10 +26,10 @@
   const addNewRole = roleName => {
     var newRoles = [];
     try {
-      newRoles = JSON.parse(localStorage.getItem(_newRolesKeyName)) || [];
+      newRoles = JSON.parse(sessionStorage.getItem(_newRolesKeyName)) || [];
       if (newRoles.indexOf(roleName) === -1) {
         newRoles.push(roleName);
-        localStorage.setItem(_newRolesKeyName, JSON.stringify(newRoles));
+        sessionStorage.setItem(_newRolesKeyName, JSON.stringify(newRoles));
       }
     } catch (e) {
       // do nothing
@@ -38,7 +38,7 @@
 
   const displayRoles = () => {
     $(".new-role").remove();
-    var newRoles = JSON.parse(localStorage.getItem(_newRolesKeyName)) || [];
+    var newRoles = JSON.parse(sessionStorage.getItem(_newRolesKeyName)) || [];
     newRoles.forEach(role => {
       var elem =
         `<div class="role new-role">

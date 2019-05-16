@@ -110,7 +110,7 @@ label {
   padding: 0;
 }
 .bg-change {
-  background: $white !important;
+  background: white !important;
   color: #12199c !important;
 }
 /*===================
@@ -210,7 +210,7 @@ section.pt-25 {
   display: inline-block;
   padding: 12px 52px;
   background: #12199c;
-  color: $white;
+  color: white;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 12px;
@@ -219,7 +219,7 @@ section.pt-25 {
   transition: all 0.2s;
 }
 .appix-danger:hover {
-  color: $white;
+  color: white;
 }
 .b-mr {
   margin-right: 25px;
@@ -228,7 +228,7 @@ section.pt-25 {
   display: inline-block;
   padding: 12px 20px;
   background: #3694f4;
-  color: $white;
+  color: white;
   text-transform: uppercase;
   font-weight: 400;
   text-align: center;
@@ -237,7 +237,7 @@ section.pt-25 {
   transition: all 00.2s;
 }
 .appix-info:hover {
-  color: $white;
+  color: white;
 }
 .para-mb {
   font-size: 16px;
@@ -263,7 +263,7 @@ header {
   transition: all 00.2s;
   border-bottom: 1px solid rgba(245, 245, 245, 0.1);
   padding: 16px 0px;
-  background: $white;
+  background: white;
 }
 .navbar--header {
   display: flex;
@@ -303,7 +303,7 @@ header.sticky .container h1 {
   font-size: 43px;
   background: #424242;
   padding: 4px 20px;
-  color: $white;
+  color: white;
 }
 .custom-toggle {
   display: flex;
@@ -316,12 +316,12 @@ header.sticky .container h1 {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
-  color: $white;
+  color: white;
 }
 .themeix-logo-title {
   font-size: 28px;
   font-weight: 500;
-  color: $white;
+  color: white;
   float: right;
   text-align: center;
   padding: 12px 8px;
@@ -347,7 +347,7 @@ header.sticky .logo-brand img {
 
 #about,
 #pricing {
-  background: $white;
+  background: white;
 }
 #features,
 #who {
@@ -382,19 +382,19 @@ header.sticky .logo-brand img {
   padding: 90px 0;
 }
 .first-bg-gradient {
-  background: $white;
+  background: white;
 }
 .caption-area .caption-heading {
   margin-bottom: 10px;
-  color: $white;
+  color: white;
 }
 .caption-area .caption-para {
   font-size: 16px;
-  color: $white;
+  color: white;
   margin-bottom: 75px;
 }
 .caption-area .caption-para-second {
-  color: $white;
+  color: white;
   margin-bottom: 40px;
   font-size: 16px;
   line-height: 24px;
@@ -413,7 +413,7 @@ img.icon {
   height: 42px;
 }
 .about-section {
-  background: $white;
+  background: white;
 }
 .light-300 {
   font-size: 16px;
@@ -439,11 +439,11 @@ img.icon {
   // margin-bottom: 45px;
 }
 .change-color {
-  color: $white;
+  color: white;
 }
 .themeix-info {
   background: #3694f4 !important;
-  color: $white !important;
+  color: white !important;
 }
 .themeix-button-group .themeix-danger:before {
   content: "";
@@ -482,7 +482,7 @@ img.icon {
   height: 50%;
 }
 .themeix-button-group .themeix-danger:hover {
-  color: $white !important;
+  color: white !important;
 }
 
 .about-section ul.benefits {
@@ -507,7 +507,7 @@ img.icon {
 .sticky .main-menu {
   animation: 0.2s linear 0s normal none 1 running fadeInDown;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background: $white;
+  background: white;
   left: 0;
   color: #303030 !important;
   margin: 0 auto;
@@ -558,7 +558,7 @@ img.icon {
   padding: 25px 0 30px;
 }
 .themeix-sub-title {
-  color: $white;
+  color: white;
   position: relative;
 }
 .themeix-sub-title::after {
@@ -568,7 +568,7 @@ img.icon {
   left: 45%;
   top: 40px;
   width: 6%;
-  background: $white;
+  background: white;
   text-align: center;
   margin: 0 auto;
 }
@@ -584,7 +584,7 @@ img.icon {
   margin-bottom: 30px;
 }
 .themeix-para-style {
-  color: $white;
+  color: white;
   line-height: 24px;
   font-size: 16px;
 }
@@ -696,7 +696,7 @@ img.icon {
    ========================================== */
 
 .trailer-video-overlay {
-  background: $white;
+  background: white;
 }
 #background {
   position: fixed;
@@ -726,7 +726,7 @@ img.icon {
 }
 #video .modal-header h3 {
   border: medium none;
-  color: $white;
+  color: white;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
@@ -738,7 +738,7 @@ img.icon {
   background-color: transparent;
   border: medium none;
   border-radius: 0;
-  color: $white;
+  color: white;
   font-size: 33px;
   line-height: 48px;
   margin: 0;
@@ -778,18 +778,18 @@ img.icon {
   text-align: center;
 }
 #video a {
-  color: $white;
+  color: white;
   display: inline-block;
 }
 #video a i {
   font-size: 100px;
 }
 #video h4 {
-  color: $white;
+  color: white;
   margin-bottom: 20px;
 }
 #video p {
-  color: $white;
+  color: white;
 }
 .vidoverlay {
   background: rgba(0, 0, 0, 0)
@@ -884,7 +884,7 @@ img.icon {
   text-align: center;
   line-height: 30px;
   margin-right: 6px;
-  color: $white;
+  color: white;
 }
 .owl-nav {
   position: absolute;
@@ -960,7 +960,7 @@ img.icon {
       transition: all 0.2s linear 0s;
 
       span {
-        color: $white;
+        color: white;
 
         &.dollar-rate {
           font-family: AxiformaBolder, cursive;
@@ -973,7 +973,7 @@ img.icon {
       }
       sub {
         font-family: OpenSans;
-        color: $white;
+        color: white;
         font-size: 14px;
       }
     }
@@ -994,13 +994,13 @@ img.icon {
     }
 
     &.active-price {
-      background-color: $white;
+      background-color: white;
       -webkit-box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
       -moz-box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
       box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
 
       .price-table {
-        color: $white;
+        color: white;
         background: #12199c;
         padding: 34px 0;
 
@@ -1018,7 +1018,7 @@ img.icon {
       box-shadow: -1px -1px 17px 2px rgba(0, 0, 0, 0.2);
 
       .price-table {
-        color: $white;
+        color: white;
         background: #12199c;
       }
 
@@ -1033,7 +1033,7 @@ img.icon {
           background-color: $brand-primary;
         }
         &:hover {
-          color: $white;
+          color: white;
         }
       }
     }
@@ -1090,7 +1090,7 @@ img.icon {
   height: 50%;
 }
 .themeix-button-group .themeix-price-button-active:hover {
-  color: $white !important;
+  color: white !important;
 }
 /*=========================================
     End  themeix-price-button-active
@@ -1133,7 +1133,7 @@ img.icon {
   height: 50%;
 }
 .themeix-button-group .price-btn-cust:hover {
-  color: $white !important;
+  color: white !important;
 }
 /* ==========================================
            15. Get appix now
@@ -1156,7 +1156,7 @@ img.icon {
   background: #12199c;
   padding: 18px 25px;
   text-align: center;
-  color: $white;
+  color: white;
   line-height: 0px;
   position: relative;
   font-weight: 500;
@@ -1169,7 +1169,7 @@ img.icon {
   transition: all 0.2s linear 0s;
 }
 .play-store-button:hover {
-  color: $white;
+  color: white;
   -webkit-box-shadow: -1px -1px 27px 2px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: -1px -1px 27px 2px rgba(0, 0, 0, 0.2);
   box-shadow: -1px -1px 17px 8px rgba(0, 0, 0, 0.2);
@@ -1189,7 +1189,7 @@ img.icon {
   text-transform: uppercase;
 }
 .play-store-button:visited {
-  color: $white;
+  color: white;
 }
 /* ==========================================
            16. Contact us
@@ -1201,7 +1201,7 @@ img.icon {
   background-position: center center;
 
   h2 {
-    color: $white;
+    color: white;
   }
 
   .btn-clear {
@@ -1209,7 +1209,7 @@ img.icon {
   }
 }
 .title-color-change {
-  color: $white !important;
+  color: white !important;
 }
 .full-width {
   width: 100%;
@@ -1218,7 +1218,7 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 textarea.form-control {
-  background: $white;
+  background: white;
   border: 1px solid #e1e1e1;
   color: #222222;
   font-size: 16px;
@@ -1231,7 +1231,7 @@ textarea.form-control {
   border-radius: 0;
 }
 textarea {
-  background: $white none repeat scroll 0 0;
+  background: white none repeat scroll 0 0;
   border: 0px solid #e1e1e1;
   color: #222222;
   font-size: 14px;
@@ -1254,7 +1254,7 @@ h2.get-in-contact {
   padding: 60px 0;
 }
 .themeix-footer-bottom a {
-  color: $white;
+  color: white;
   font-weight: 700;
 }
 .inner-section a {
@@ -1266,13 +1266,13 @@ h2.get-in-contact {
 .footer-menu li {
   display: block;
   display: inline-block;
-  border-right: 1px solid$white;
+  border-right: 1px solidwhite;
 }
 .footer-menu li:last-child {
   border-right: none;
 }
 .footer-menu li a {
-  color: $white;
+  color: white;
   font-weight: 400;
   padding: 0 11px;
 }
@@ -1280,7 +1280,7 @@ h2.get-in-contact {
   background: rgba(0, 0, 0, 0.1);
 }
 .inner-section {
-  color: $white;
+  color: white;
 }
 .company-logos {
   padding-top: 60px;
@@ -1337,7 +1337,7 @@ h2.get-in-contact {
 #scrollUp {
   background: #f86a90 none repeat scroll 0 0;
   bottom: 40px;
-  color: $white;
+  color: white;
   font-size: 20px;
   font-weight: 700;
   width: 40px;
@@ -1365,7 +1365,7 @@ h2.get-in-contact {
 .page-header-bg {
   padding-top: 140px;
   padding-bottom: 72px;
-  color: $white;
+  color: white;
 }
 ul.page-list {
   list-style: none;
@@ -1382,7 +1382,7 @@ ul.page-list li + li::before {
   padding: 0px 8px;
 }
 ul.page-list li a {
-  color: $white;
+  color: white;
 }
 /* ==========================================
            20. Blog
@@ -1406,7 +1406,7 @@ ul.page-list li a {
   text-align: center;
   line-height: 30px;
   font-size: 30px;
-  color: $white;
+  color: white;
   z-index: 11;
   position: absolute;
   left: 0;
@@ -1495,7 +1495,7 @@ ul.blog-author-name li i {
 }
 .themeix-second-button .btn-read {
   background-color: #12199c;
-  color: $white;
+  color: white;
   border: 2px solid #12199c;
   border-radius: 4px;
   text-transform: uppercase;
@@ -1508,7 +1508,7 @@ ul.blog-author-name li i {
   float: left;
 }
 .themeix-second-button .btn-read:hover {
-  background: $white;
+  background: white;
   color: #424242;
 }
 .share-icon span {
@@ -1528,7 +1528,7 @@ ul.social-icon {
   height: 30px;
   text-align: center;
   line-height: 30px;
-  color: $white;
+  color: white;
   font-size: 15px;
   margin-right: 6px;
   -webkit-transition: all 0.2s;
@@ -1566,7 +1566,7 @@ a {
 }
 .social-icon a:hover {
   background: #424242;
-  color: $white;
+  color: white;
 }
 .icon-button {
   position: relative;
@@ -1672,10 +1672,10 @@ h5.author-title {
   line-height: 1.42857143;
   color: #337ab7;
   text-decoration: none;
-  background-color: $white;
+  background-color: white;
   border: 0px solid #ddd;
   font-weight: 400;
-  color: $white;
+  color: white;
   font-size: 16px;
   background: #cccccc;
   -webkit-transition: all 0.2s;
@@ -1685,18 +1685,18 @@ h5.author-title {
 }
 .pagination li a:hover {
   background: #12199c;
-  color: $white;
+  color: white;
 }
 .pagination li a.active {
   background: #12199c;
-  color: $white;
+  color: white;
 }
 /* ==========================================
            22. Blog Footer 
  ========================================== */
 
 .footer-area {
-  background: $white;
+  background: white;
 }
 .column {
   overflow: hidden;
@@ -1722,11 +1722,11 @@ h5.author-title {
   display: inline-block;
 }
 .themeix-tool i {
-  color: $white;
+  color: white;
   font-size: 20px;
 }
 .themeix-tool:hover i {
-  color: $white;
+  color: white;
   transition: color 0.3s 0.6s;
 }
 .themeix-tool:hover #colorbox,
@@ -1786,7 +1786,7 @@ h5.author-title {
   position: relative;
 }
 .newsletter input {
-  background: $white;
+  background: white;
   border: 1px solid#E4E4E4;
   width: 100%;
   padding: 0 15px;
@@ -1801,7 +1801,7 @@ h5.author-title {
   width: 43px;
   line-height: 42px;
   background: #12199c;
-  color: $white;
+  color: white;
   border: 0;
 }
 .mar-top {
@@ -1888,12 +1888,12 @@ ul.tagcloud li a {
 }
 ul.tagcloud li a:hover {
   background-color: #288feb;
-  color: $white;
+  color: white;
   border-color: #288feb;
 }
 ul.tagcloud li.widget-active a {
   background-color: #288feb;
-  color: $white;
+  color: white;
 }
 .custom ul li {
   border-bottom: solid 1px #eee;
@@ -1938,7 +1938,7 @@ ul.tagcloud li.widget-active a {
 }
 .john {
   float: left;
-  color: $white;
+  color: white;
   font-size: 16px;
   font-weight: 400;
 }
@@ -1955,13 +1955,13 @@ ul.author-link li {
   margin-right: 10px;
 }
 ul.author-link li a {
-  color: $white;
+  color: white;
   font-size: 15px;
 }
 .author-details p {
   margin-top: 4px;
   margin-bottom: 3px;
-  color: $white;
+  color: white;
 }
 /* =======================================
            25. Comment
@@ -2120,14 +2120,14 @@ textarea.form-control {
   margin-right: 12px;
   font-weight: 400;
 
-  color: $white;
+  color: white;
   position: relative;
   z-index: 2;
   -webkit-transition: 0.2s;
   border: 0;
 }
 .blog-cust-btn:hover {
-  color: $white;
+  color: white;
 }
 .blog-cust-btn:before {
   content: "";
@@ -2197,7 +2197,7 @@ textarea.form-control {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background: none repeat scroll 0 0 $white;
+  background: none repeat scroll 0 0 white;
 }
 .preloader-battery {
   display: block;
@@ -2776,7 +2776,7 @@ textarea.form-control {
 }
 .home-page-v-three .caption-area .dark-send-input input {
   width: 45%;
-  background: $white;
+  background: white;
   color: #949493;
   font-size: 16px;
 }
@@ -2788,7 +2788,7 @@ textarea.form-control {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   background: #12199c;
-  color: $white;
+  color: white;
   font-size: 22px;
 }
 /* =======================================
@@ -2800,7 +2800,7 @@ textarea.form-control {
 }
 .home-page-v-two .caption-area .dark-send-input input {
   width: 45%;
-  background: $white;
+  background: white;
   color: #949493;
   font-size: 16px;
 }
@@ -2812,7 +2812,7 @@ textarea.form-control {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   background: #12199c;
-  color: $white;
+  color: white;
   font-size: 22px;
 }
 /*our-service-section*/
@@ -2898,7 +2898,7 @@ textarea.form-control {
   -moz-transform: translate3d(0, 0, 0);
 }
 .slider-section::before {
-  background-color: $white;
+  background-color: white;
   bottom: -586px;
   content: "";
   height: 498px;

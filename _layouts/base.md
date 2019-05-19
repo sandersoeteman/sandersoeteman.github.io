@@ -22,6 +22,7 @@
       title="{{ site.title }}"
       href="/feed.xml"
     />
+
   </head>
 
   <body>
@@ -51,7 +52,11 @@
           </label>
 
           <div class="trigger">
+            <a class="page-link" href="/weldoen">Wel doen</a>
+            <a class="page-link" href="/nietdoen">Niet doen</a>
+            <a class="page-link" href="/dithelptmij">Dit helpt mij</a>
             <a class="page-link" href="/over">Over</a>
+            <a class="page-link" href="/contact">Contact</a>
           </div>
         </nav>
       </div>
@@ -123,5 +128,6 @@
         </div>
       </div>
     </footer>
+
   </body>
 </html>

@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
   /** Site header */
-  .site-header {
+  header.site-header {
     .site-nav {
       position: absolute;
       top: 9px;
@@ -50,29 +50,10 @@
       }
     }
   }
-  .site-footer {
-    .footer-col {
-      float: none;
-      width: -webkit-calc(100% - (30px / 2));
-      width: calc(100% - (30px / 2));
-    }
-  }
 }
 
 @media screen and (max-width: 800px) {
-  .site-footer {
-    .footer-col-1,
-    .footer-col-2 {
-      width: -webkit-calc(50% - (30px / 2));
-      width: calc(50% - (30px / 2));
-    }
-    .footer-col-3 {
-      width: -webkit-calc(100% - (30px / 2));
-      width: calc(100% - (30px / 2));
-    }
-  }
-
-  .page-content {
+  main.page-content {
     .post-title {
       font-size: 36px;
     }

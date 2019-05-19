@@ -36,7 +36,7 @@ layout: base
         <h3>Pijnstilling</h3>
         <div>
           <label>Paracetamol 500mcg</label>
-          <span>{{ page.para }}</span>
+          <span>{{ page.pcml }}</span>
         </div>
         <div>
           <label>Ibuprofen 400mcg</label>

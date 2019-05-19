@@ -1,26 +1,14 @@
 ---
 layout: blog
-title: "Welcome to sanderrrr"
+title: "Welcome to jekyll"
 date: 2019-05-18 18:33:02 +0200
-categories: jekyll update
+pijnOchtend: 9
+pijnMiddag: 8
+pijnAvond: 7
+pijnNacht: 6
+pcml: 2
+ibu: 0
+diclo: 2
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+'s nachts wakker geworden met pijn in onderrug. 2 para genomen. Geen branderig gevoel in bil en ook minder uitstraling bij opstaan. Besloten om meer te gaan zitten met het wigkussen in de onderrug en niet meer hoofdzakelijk te liggen. Afwisselend uur staan en uur liggen. Timer bij gebruiken. Gelezen dat er hernia patienten zijn die na een paar dagen in de holle rug positie te hebben gezeten zijn genezen van hun hernia. (The Alexander technique vs. the McKenzie method in the treatment.pdf: The truly amazing aspect of this study was that many subjects had their pain abolished, or at least centralized, from just 48 hours of lordotic sitting posture.)

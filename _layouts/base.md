@@ -11,7 +11,7 @@
       content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa..."
     />
 
-    <link rel="stylesheet" href="/assets/main.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
     <link
       rel="canonical"
       href="http://localhost:4000/jekyll/update/2019/05/18/welcome-to-jekyll.html"
@@ -51,9 +51,7 @@
           </label>
 
           <div class="trigger">
-            {% for page in site.pages %}
-            <a class="page-link" href="{{ page.url }}">{{ page.title }}</a>
-            {% endfor %}
+            <a class="page-link" href="/over">Over</a>
           </div>
         </nav>
       </div>

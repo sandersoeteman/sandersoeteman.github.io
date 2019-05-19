@@ -9,7 +9,7 @@ layout: base
     </h1>
     <p class="post-meta">
       <time datetime="{{ page.date }}" itemprop="datePublished">
-        {{ page.date | date: "%Y-%m-%d %H:%M" }}
+        {{ page.date | date: "%Y-%m-%d" }}
       </time>
     </p>
     <div class="pijn-en-medicatie">

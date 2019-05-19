@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Welcome to jekyll"
-date: 2019-05-18 18:33:02 +0200
+date: 2019-05-18
 pijnOchtend: 9
 pijnMiddag: 8
 pijnAvond: 7

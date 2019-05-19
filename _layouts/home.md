@@ -6,11 +6,10 @@ layout: base
   <ul class="post-list">
     {% for post in site.posts %}
     <li>
-      <span class="post-meta">{{ post.date | date: "%Y-%m-%d %H:%M" }}</span>
-
       <h2>
         <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
       </h2>
+      <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
     </li>
     {% endfor %}
 

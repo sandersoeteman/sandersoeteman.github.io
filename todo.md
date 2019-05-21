@@ -1,0 +1,2 @@
+- hellohernia.com
+- hallohernia.nl

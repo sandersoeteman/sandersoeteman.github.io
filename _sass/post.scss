@@ -34,6 +34,11 @@ main.page-content {
       font-size: 14px;
       color: #828282;
     }
+    .navigation {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
     .pijn-en-medicatie {
       display: flex;
       flex-direction: row;

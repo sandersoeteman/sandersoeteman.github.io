@@ -57,6 +57,13 @@
     .post-title {
       font-size: 36px;
     }
+    .post-header .pijn-en-medicatie > div {
+      &.pijn label,
+      label {
+        width: auto;
+        margin-right: 4px;
+      }
+    }
     .post-content {
       h2 {
         font-size: 28px;

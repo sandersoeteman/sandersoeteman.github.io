@@ -11,5 +11,5 @@ ibu: 3
 diclo: 
 ---
 
-Rugpoli onderzoek. Opgestaan met medium steken in de bekken regio. Flink aanhoudend branderig gevoel bekken en links bovenbeen. Bij de rugpoli is een flinke hernia geconstateerd aan de linkerkant van L5-S1. Heb een corticosteroide en pijnstilling spuit gekregen en moet dit twee weken zijn werk laten doen. Advies gekregen om geen oefeningen meer te doen in deze twee weken om de spuit zijn werk te kunnen laten doen.
+Rugpoli onderzoek. Opgestaan met medium steken in de bekken regio. Flink aanhoudend branderig gevoel bekken en links bovenbeen. Bij de rugpoli is een flinke hernia geconstateerd aan de linkerkant van L5-S1. Heb een corticosteroide en pijnstilling spuit gekregen en moet dit twee weken zijn werk laten doen. Advies gekregen om geen oefeningen meer te doen in deze twee weken om de spuit zijn werk te kunnen laten doen. Rust hartslag ging flink omhoog door spuit. Heb er slecht door kunnen slapen
 

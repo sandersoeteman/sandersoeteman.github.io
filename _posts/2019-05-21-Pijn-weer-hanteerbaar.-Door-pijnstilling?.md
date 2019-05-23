@@ -5,7 +5,7 @@ date: 2019-05-21 00:00:00 +0200
 pijnNacht: 4.5
 pijnOchtend: 8
 pijnMiddag: 6
-pijnAvond: 
+pijnAvond: 7
 pcml: 2
 ibu: 
 diclo: 2

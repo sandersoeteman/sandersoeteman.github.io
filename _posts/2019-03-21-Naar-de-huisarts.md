@@ -6,6 +6,7 @@ pijnNacht:
 pijnOchtend: 
 pijnMiddag: 
 pijnAvond: 
+stemming: 
 pcml: 
 ibu: 
 diclo: 

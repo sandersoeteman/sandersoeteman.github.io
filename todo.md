@@ -12,6 +12,9 @@
 - mensen laten reageren op elkaar's post. Werkt stimulerend
 - vragen voor behandelaar
 - dit werkt voor mij: wel doen/niet doen
+- heroku of andere PaaS?
+  ..- https://www.quora.com/What-are-some-alternatives-to-Heroku-that-are-more-reliable
+  ..- 
 
 # Verdienmodel
 

@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>{{ site.title }}</title>
-    <meta
-      name="description"
-      content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa..."
-    />
 
     <link rel="stylesheet" href="/assets/css/main.css" />
     <link
@@ -23,6 +19,7 @@
       href="/feed.xml"
     />
 
+    {% seo %}
   </head>
 
   <body>
@@ -67,6 +64,5 @@
         {{ content }}
       </div>
     </main>
-
   </body>
 </html>

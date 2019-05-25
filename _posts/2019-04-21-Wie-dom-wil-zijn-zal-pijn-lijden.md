@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Wie dom wil zijn zal pijn lijden
-date: 2019-04-21 00:00:00 +0200
+date: 2019-04-21
 pijnNacht: 3
 pijnOchtend: 8
 pijnMiddag: 8

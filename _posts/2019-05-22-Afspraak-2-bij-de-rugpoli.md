@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Afspraak 2 bij de rugpoli
-date: 2019-05-22 00:00:00 +0200
+date: 2019-05-22
 pijnNacht: 4
 pijnOchtend: 8
 pijnMiddag: 6

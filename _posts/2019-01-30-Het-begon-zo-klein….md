@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Het begon zo klein…
-date: 2019-01-30 00:00:00 +0200
+date: 2019-01-30
 pijnNacht: 0
 pijnOchtend: 2
 pijnMiddag: 2

@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: McKenzie diagnose beweging gedaan
-date: 2019-05-10 00:00:00 +0200
+date: 2019-05-10
 pijnNacht: 3
 pijnOchtend: 8
 pijnMiddag: 8

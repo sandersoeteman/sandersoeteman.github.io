@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Toch maar weer begonnen met McKenzie
-date: 2019-05-04 00:00:00 +0200
+date: 2019-05-04
 pijnNacht: 3
 pijnOchtend: 9
 pijnMiddag: 7

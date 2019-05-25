@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Wintersport
-date: 2019-02-03 00:00:00 +0200
+date: 2019-02-03
 pijnNacht: 3
 pijnOchtend: 3
 pijnMiddag: 3

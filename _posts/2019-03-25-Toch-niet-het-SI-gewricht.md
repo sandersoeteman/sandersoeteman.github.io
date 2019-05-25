@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Toch niet het SI gewricht
-date: 2019-03-25 00:00:00 +0200
+date: 2019-03-25
 pijnNacht: 3
 pijnOchtend: 5
 pijnMiddag: 5

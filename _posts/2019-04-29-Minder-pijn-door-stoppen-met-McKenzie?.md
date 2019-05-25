@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Minder pijn door stoppen met McKenzie?
-date: 2019-04-29 00:00:00 +0200
+date: 2019-04-29
 pijnNacht: 3
 pijnOchtend: 7
 pijnMiddag: 7

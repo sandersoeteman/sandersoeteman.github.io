@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Werkt de injectie nu al?
-date: 2019-05-09 00:00:00 +0200
+date: 2019-05-09
 pijnNacht: 3
 pijnOchtend: 9
 pijnMiddag: 7

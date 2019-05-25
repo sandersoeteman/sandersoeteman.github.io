@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Rugpoli eerste afspraak
-date: 2019-05-08 00:00:00 +0200
+date: 2019-05-08
 pijnNacht: 3
 pijnOchtend: 8
 pijnMiddag: 8

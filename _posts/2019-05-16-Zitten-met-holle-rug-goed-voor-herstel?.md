@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Zitten met holle rug goed voor herstel?
-date: 2019-05-16 00:00:00 +0200
+date: 2019-05-16
 pijnNacht: 4
 pijnOchtend: 8
 pijnMiddag: 6

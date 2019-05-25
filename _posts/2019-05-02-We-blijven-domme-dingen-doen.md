@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: We blijven domme dingen doen
-date: 2019-05-02 00:00:00 +0200
+date: 2019-05-02
 pijnNacht: 3
 pijnOchtend: 7
 pijnMiddag: 7

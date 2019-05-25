@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Waarom blijf ik toch zo ontzettend dom?
-date: 2019-05-11 00:00:00 +0200
+date: 2019-05-11
 pijnNacht: 9
 pijnOchtend: 10
 pijnMiddag: 9

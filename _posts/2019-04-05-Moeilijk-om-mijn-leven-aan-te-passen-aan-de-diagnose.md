@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Moeilijk om mijn leven aan te passen aan de diagnose
-date: 2019-04-05 00:00:00 +0200
+date: 2019-04-05
 pijnNacht: 3
 pijnOchtend: 6
 pijnMiddag: 6

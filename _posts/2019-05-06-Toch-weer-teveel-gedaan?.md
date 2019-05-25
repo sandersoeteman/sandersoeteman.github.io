@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Toch weer teveel gedaan?
-date: 2019-05-06 00:00:00 +0200
+date: 2019-05-06
 pijnNacht: 3
 pijnOchtend: 7
 pijnMiddag: 7

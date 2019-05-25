@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Zitten we in een stijgende lijn?
-date: 2019-05-01 00:00:00 +0200
+date: 2019-05-01
 pijnNacht: 3
 pijnOchtend: 8
 pijnMiddag: 8

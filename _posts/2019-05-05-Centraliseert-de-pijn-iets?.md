@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Centraliseert de pijn iets?
-date: 2019-05-05 00:00:00 +0200
+date: 2019-05-05
 pijnNacht: 3
 pijnOchtend: 9
 pijnMiddag: 7

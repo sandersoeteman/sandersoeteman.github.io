@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Onderzoeken opgezocht over lordotic sitting position (zitten met holle rug)
-date: 2019-05-17 00:00:00 +0200
+date: 2019-05-17
 pijnNacht: 7
 pijnOchtend: 7
 pijnMiddag: 6

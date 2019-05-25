@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Gestopt met McKenzie
-date: 2019-04-28 00:00:00 +0200
+date: 2019-04-28
 pijnNacht: 3
 pijnOchtend: 8
 pijnMiddag: 8

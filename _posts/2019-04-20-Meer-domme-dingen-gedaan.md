@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Meer domme dingen gedaan
-date: 2019-04-20 00:00:00 +0200
+date: 2019-04-20
 pijnNacht: 3
 pijnOchtend: 8
 pijnMiddag: 8

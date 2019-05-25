@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Gehaaste spoed, is zelden goed
-date: 2019-01-31 00:00:00 +0200
+date: 2019-01-31
 pijnNacht: 9
 pijnOchtend: 9
 pijnMiddag: 9

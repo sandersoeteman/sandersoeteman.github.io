@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Hoop niet dat ik teveel gedaan heb
-date: 2019-05-15 00:00:00 +0200
+date: 2019-05-15
 pijnNacht: 7
 pijnOchtend: 9
 pijnMiddag: 6

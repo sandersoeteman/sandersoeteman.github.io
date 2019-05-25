@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Toch geen silver bullet
-date: 2019-05-18 00:00:00 +0200
+date: 2019-05-18
 pijnNacht: 7
 pijnOchtend: 9
 pijnMiddag: 8

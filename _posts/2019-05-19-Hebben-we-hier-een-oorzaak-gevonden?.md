@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Hebben we hier een oorzaak gevonden?
-date: 2019-05-19 00:00:00 +0200
+date: 2019-05-19
 pijnNacht: 4
 pijnOchtend: 8
 pijnMiddag: 5

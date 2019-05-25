@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Mijn domheid beperkt mijn herstel
-date: 2019-05-03 00:00:00 +0200
+date: 2019-05-03
 pijnNacht: 3
 pijnOchtend: 8
 pijnMiddag: 7

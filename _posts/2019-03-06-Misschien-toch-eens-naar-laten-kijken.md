@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Misschien toch eens naar laten kijken
-date: 2019-03-06 00:00:00 +0200
+date: 2019-03-06
 pijnNacht: 3
 pijnOchtend: 4
 pijnMiddag: 4

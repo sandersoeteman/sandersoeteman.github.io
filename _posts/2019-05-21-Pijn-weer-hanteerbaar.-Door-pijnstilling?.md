@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Pijn weer hanteerbaar. Door pijnstilling?
-date: 2019-05-21 00:00:00 +0200
+date: 2019-05-21
 pijnNacht: 4.5
 pijnOchtend: 8
 pijnMiddag: 6

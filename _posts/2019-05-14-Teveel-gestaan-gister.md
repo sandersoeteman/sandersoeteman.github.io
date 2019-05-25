@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Teveel gestaan gister
-date: 2019-05-14 00:00:00 +0200
+date: 2019-05-14
 pijnNacht: 6
 pijnOchtend: 9
 pijnMiddag: 6

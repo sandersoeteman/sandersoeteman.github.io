@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Twee weken McKenzie therapie 
-date: 2019-04-11 00:00:00 +0200
+date: 2019-04-11
 pijnNacht: 3
 pijnOchtend: 6
 pijnMiddag: 6

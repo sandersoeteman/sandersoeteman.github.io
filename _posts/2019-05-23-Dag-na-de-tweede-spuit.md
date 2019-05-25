@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Dag na de tweede spuit
-date: 2019-05-23 00:00:00 +0200
+date: 2019-05-23
 pijnNacht: 4
 pijnOchtend: 5
 pijnMiddag: 7

@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Ik blijf domme dingen doen
-date: 2019-04-13 00:00:00 +0200
+date: 2019-04-13
 pijnNacht: 3
 pijnOchtend: 8
 pijnMiddag: 8

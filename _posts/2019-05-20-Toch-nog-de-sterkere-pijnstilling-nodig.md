@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Toch nog de sterkere pijnstilling nodig
-date: 2019-05-20 00:00:00 +0200
+date: 2019-05-20
 pijnNacht: 4
 pijnOchtend: 7.5
 pijnMiddag: 8

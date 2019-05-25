@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Pijnstilling upgrade gekregen
-date: 2019-05-13 00:00:00 +0200
+date: 2019-05-13
 pijnNacht: 7
 pijnOchtend: 9
 pijnMiddag: 7

@@ -9,7 +9,23 @@ layout: base
       <h2>
         <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
       </h2>
-      <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <div class="mood-date">
+        <span class="date">{{ post.date | date: "%A %Y-%m-%d" }}</span>
+        {% if post.stemming %}
+        <span class="mood mood-{{ post.stemming }}">
+          stemming: {% if post.stemming == 5 %}
+          <i class="far fa-grin-stars"></i>
+          {% elsif post.stemming == 4 %}
+          <i class="far fa-smile"></i>
+          {% elsif post.stemming == 3 %}
+          <i class="far fa-meh"></i>
+          {% elsif post.stemming == 2 %}
+          <i class="far fa-frown"></i>
+          {% elsif post.stemming == 1 %}
+          <i class="far fa-sad-cry"></i>
+          {% endif %} {% endif %}
+        </span>
+      </div>
     </li>
     {% endfor %}
   </ul>

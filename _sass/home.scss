@@ -1,0 +1,11 @@
+.home {
+  .mood-date {
+    display: flex;
+    flex-direction: column;
+    .date {
+      text-transform: lowercase;
+      color: #828282;
+      font-size: 14px;
+    }
+  }
+}

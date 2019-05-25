@@ -9,7 +9,7 @@ layout: base
     </h1>
     <div class="mood-date">
       <div class="mood mood-{{ page.stemming }}">
-        stemming: {% if page.stemming == 5 %}
+        {% if page.stemming %} stemming: {% if page.stemming == 5 %}
         <i class="far fa-grin-stars"></i>
         {% elsif page.stemming == 4 %}
         <i class="far fa-smile"></i>
@@ -19,7 +19,7 @@ layout: base
         <i class="far fa-frown"></i>
         {% elsif page.stemming == 1 %}
         <i class="far fa-sad-cry"></i>
-        {% endif %}
+        {% endif %} {% endif %}
       </div>
       <div class="date">
         <time datetime="{{ page.date }}" itemprop="datePublished">

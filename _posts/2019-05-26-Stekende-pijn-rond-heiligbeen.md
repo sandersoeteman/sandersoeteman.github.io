@@ -3,7 +3,7 @@ layout: blog
 title: Stekende pijn rond heiligbeen
 date: 2019-05-26
 pijnNacht: 9.5
-pijnOchtend: 7
+pijnOchtend: 9
 pijnMiddag: 7
 pijnAvond: 6
 stemming: 1

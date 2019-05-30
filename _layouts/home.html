@@ -9,22 +9,43 @@ layout: base
       <h2>
         <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
       </h2>
-      <div class="mood-date">
-        <span class="date">{{ post.date | date: "%A %Y-%m-%d" }}</span>
-        {% if post.stemming %}
-        <span class="mood mood-{{ post.stemming }}">
-          stemming: {% if post.stemming == 5 %}
-          <i class="far fa-grin-stars"></i>
-          {% elsif post.stemming == 4 %}
-          <i class="far fa-smile"></i>
-          {% elsif post.stemming == 3 %}
-          <i class="far fa-meh"></i>
-          {% elsif post.stemming == 2 %}
-          <i class="far fa-frown"></i>
-          {% elsif post.stemming == 1 %}
-          <i class="far fa-sad-cry"></i>
-          {% endif %} {% endif %}
-        </span>
+      <div class="meta">
+        <div class="mood-date">
+          <span class="date">{{ post.date | date: "%A %Y-%m-%d" }}</span>
+          {% if post.stemming %}
+          <span class="mood mood-{{ post.stemming }}">
+            stemming: {% if post.stemming == 5 %}
+            <i class="far fa-grin-stars"></i>
+            {% elsif post.stemming == 4 %}
+            <i class="far fa-smile"></i>
+            {% elsif post.stemming == 3 %}
+            <i class="far fa-meh"></i>
+            {% elsif post.stemming == 2 %}
+            <i class="far fa-frown"></i>
+            {% elsif post.stemming == 1 %}
+            <i class="far fa-sad-cry"></i>
+            {% endif %} {% endif %}
+          </span>
+        </div>
+        <div class="medicatie">
+          <div class="total">
+            {% assign total = post.pcml | plus: post.ibu | plus: post.diclo %}
+            <img src="assets/pills.png" alt="pills" />&nbsp;{{ total }}
+          </div>
+          <div>
+            <span>pcml:</span>{% if post.pcml %}{{
+              post.pcml
+            }}{%else%}-{%endif%}
+          </div>
+          <div>
+            <span>ibu:</span>{% if post.ibu %}{{ post.ibu }}{%else%}-{%endif%}
+          </div>
+          <div>
+            <span>dclf:</span>{% if post.diclo %}{{
+              post.diclo
+            }}{%else%}-{%endif%}
+          </div>
+        </div>
       </div>
     </li>
     {% endfor %}

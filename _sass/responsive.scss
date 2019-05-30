@@ -50,6 +50,11 @@
       }
     }
   }
+  #home {
+    .meta .medicatie > div.med {
+      display: none;
+    }
+  }
 }
 
 @media screen and (max-width: 800px) {

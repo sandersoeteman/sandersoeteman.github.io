@@ -2,7 +2,7 @@
 layout: base
 ---
 
-<div class="home">
+<div id="home">
   <ul class="post-list">
     {% for post in site.posts %}
     <li>
@@ -32,15 +32,15 @@ layout: base
             {% assign total = post.pcml | plus: post.ibu | plus: post.diclo %}
             <img src="assets/pills.png" alt="pills" />&nbsp;{{ total }}
           </div>
-          <div>
+          <div class="med">
             <span>pcml:</span>{% if post.pcml %}{{
               post.pcml
             }}{%else%}-{%endif%}
           </div>
-          <div>
+          <div class="med">
             <span>ibu:</span>{% if post.ibu %}{{ post.ibu }}{%else%}-{%endif%}
           </div>
-          <div>
+          <div class="med">
             <span>dclf:</span>{% if post.diclo %}{{
               post.diclo
             }}{%else%}-{%endif%}

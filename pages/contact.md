@@ -4,12 +4,13 @@ title: Neem contact met mij op
 permalink: /contact/
 ---
 
+<div id="contact">
 <p>
-  Deze pagina is een experiment. Het heeft mij heel veel geholpen om dagelijks mijn onhandige acties, mijn medicatie, mijn pijnbeleving en mijn gemoedstoestand bij te houden. Dit werd al snel heel veel data, waar ik in terug kon bladeren omdat ik gewoon niet meer wist hoe ik me zelfs maar een week geleden voelde, of hoeveel pijnmedicatie ik toen gebruikte. 
-  Heb je zelf ook een hernia? Wil je ook zo'n overzicht voor jezelf? Laat het me dan a.u.b. weten! 
+  Deze website is een experiment. Het heeft mij heel veel geholpen om dagelijks mijn onhandige acties, mijn pijnmedicatie, mijn pijnbeleving en mijn gemoedstoestand bij te houden. Dit werd al snel heel veel data, waar ik dan in terug kon kijken wanneer ik niet meer wist hoe ik me zelfs maar een week geleden voelde, of hoeveel pijnmedicatie ik toen gebruikte. <br/><br/>
+  Heb je zelf een hernia en wil je ook zo'n overzicht voor jezelf? Heb je gewoon een vraag of een opmerking? Laat het me dan a.u.b. weten! <br><br>
+  Sander
 </p>
 <form
-  class="contact"
   action="https://formspree.io/xvvvoazx"
   method="POST"
 >
@@ -30,3 +31,4 @@ permalink: /contact/
 <button type="submit">Verstuur</button>
 
 </form>
+</div>

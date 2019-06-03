@@ -18,9 +18,10 @@
                 <span class="claim">Claim uw levenslang gratis account!</span>
               </p>
               <form
-                action="https://app.pokayoka.com"
+                action="http://localhost:3001"
                 method="POST"
                 enctype="multipart/form-data"
+                class="try-submit-files-form"
               >
                 <div>
                   <input
@@ -37,12 +38,15 @@
                     type="file"
                     name="plans"
                     id="plans"
-                    accept="application/pdf"
+                    accept="application/pdf,image/png,image/jpeg"
                     multiple
                     required
                   />
                 </div>
-                <button class="themeix-btn btn-blue">
+                <button
+                  type="submit"
+                  class="themeix-btn btn-blue try-submit-files-button"
+                >
                   Gratis aan de slag!
                 </button>
               </form>

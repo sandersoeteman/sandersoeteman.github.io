@@ -118,12 +118,24 @@
     FilePondPluginFileValidateType
   );
 
+  let busy = false;
+
   // Select the file input and use create() to turn it into a pond
   // in this example we pass properties along with the create method
   // we could have also put these on the file input element itself
   FilePond.create(document.querySelector('input[type="file"]'), {
     labelIdle: `Sleep PDF plattegronden op dit vlak, of <span class="filepond--label-action">Browse</span>`,
-    server: "https://app.pokayoka.com/new"
+    server: "http://localhost:3001/upload",
+    onupdatefiles: () => (busy = true),
+    onprocessfiles: () => (busy = false)
+  });
+
+  $(".try-submit-files-form").on("submit", e => {
+    if (busy) {
+      e.preventDefault();
+      $(".try-submit-files-button").text("Wacht op voltooien upload...");
+      setTimeout(() => $(".try-submit-files-form").submit(), 100);
+    }
   });
 
   $(".btn-trial").click(e => {

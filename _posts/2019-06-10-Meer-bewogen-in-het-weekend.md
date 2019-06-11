@@ -7,8 +7,8 @@ pijnOchtend: 4
 pijnMiddag: 4
 pijnAvond: 4
 stemming: 4
-pcml: 
-ibu: 
+pcml: 2
+ibu: 2
 diclo: 
 ---
 

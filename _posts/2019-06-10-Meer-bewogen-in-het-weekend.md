@@ -3,8 +3,8 @@ layout: blog
 title: Meer bewogen in het weekend
 date: 2019-06-10
 pijnNacht: 5
-pijnOchtend: 4
-pijnMiddag: 4
+pijnOchtend: 5
+pijnMiddag: 5
 pijnAvond: 4
 stemming: 4
 pcml: 2

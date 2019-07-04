@@ -61,7 +61,7 @@ layout: base
       </div>
       <div class="medicatie">
         <h3>Pijnstilling</h3>
-        {% if page.pcml %}
+        {% if page.pcml or page.ibu or page.diclo %} {% if page.pcml %}
         <div>
           <label>Paracetamol 500mg</label>
           <span>{{ page.pcml }}</span>
@@ -75,6 +75,10 @@ layout: base
         <div>
           <label>Diclofenac 75mg</label>
           <span>{{ page.diclo }}</span>
+        </div>
+        {% endif %} {% else %}
+        <div>
+          <label>Geen pijnstilling!</label>
         </div>
         {% endif %}
       </div>
